@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta name="description" content="The Talent Simulator helps the player to create talent builds for all the classes to save, share/link and use in guides.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+
+    <title>TKoK Talent Tree Simulator</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/skills.css">
+    <link rel="stylesheet" href="stylesheets/font.css">
+    
+</head>
+<body>
+    <div id="new_bg">
+            
+        <!-- Skill Calc Start -->
+        
+        <div class="container-fluid calcBox">
+        
+            <div id="window">
+                
+                <div id="drag_bar"></div>
+                
+                <div id="jobName"><p>Arcanist</p></div>
+                
+                <!-- Default dropdown button -->
+                <div id="jobDrop2" class="btn-group dropdown">
+                    <button type="button" class="btn dropdown-toggle"
+                    data-toggle="dropdown" data-offset="2,0" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" onclick="changeJob(arcanist_skills, 'Arcanist')" href="#">Arcanist</a>
+                        <a class="dropdown-item" onclick="changeJob(phantom_stalker_skills, 'Phantom Stalker')" href="#">Phantom Stalker</a>
+                        <!--<a class="dropdown-item" onclick="changeJob(barbarian_skills, 'Barbarian')" href="#">Barbarian</a>-->
+                        <a class="dropdown-item" onclick="changeJob(chaotic_knight_skills, 'Chaotic Knight')" href="#">Chaotic Knight</a>
+                        <!--<a class="dropdown-item" onclick="changeJob(chronowarper_skills, 'Chronowarper')" href="#">Chronowarper</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(cleric_skills, 'Cleric')" href="#">Cleric</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(druid_skills, 'Druid')" href="#">Druid</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(earthquaker_skills, 'Earthquaker')" href="#">Earthquaker</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(hydromancer_skills, 'Hydromancer')" href="#">Hydromancer</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(aeromancer_skills, 'Aeromancer')" href="#">Aeromancer</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(medicaster_skills, 'Medicaster')" href="#">Medicaster</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(paladin_skills, 'Paladin')" href="#">Paladin</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(pyromancer_skills, 'Pyromancer')" href="#">Pyromancer</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(ranger_skills, 'Ranger')" href="#">Ranger</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(shadowblade_skills, 'Shadowblade')" href="#">Shadowblade</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(shadow_shaman_skills, 'Shadow Shaman')" href="#">Shadow Shaman</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(venomancer_skills, 'Venomancer')" href="#">Venomancer</a>-->
+                        <a class="dropdown-item" onclick="changeJob(warrior_skills, 'Warrior')" href="#">Warrior</a>
+                    </div>
+                </div>
+            
+                <div class="row" id="skills_right"></div>
+                
+                <div id="skill_points"><p>Available Talent Points: </p><p id="skillPointNumber">0</p></div>
+                
+                <div id="resetSkills"><label id="resetLabel" onclick="resetSkills()"></label></div>
+
+                <form id="saveSkillBuild">
+                    <label id="saveLabel" for="buildNameInput" onclick="showInputField()"></label>
+                    <input class="form-control" id="buildNameInput" placeholder="Save As" type="text" maxlength="32"
+                            data-toggle="tooltip" data-placement="left" title="Enter to Save. Esc to Cancel."/>
+                    <input class="d-none" type="submit"/>
+                </form>
+
+                <div id="loadSkillBuild" class="btn-group dropup">
+                    <button type="button" class="btn dropdown-toggle" id="loadBuildButton" onclick="buildMenu()"
+                            data-toggle="dropdown" data-offset="0,2" aria-expanded="false" aria-haspopup="true">
+                        Load Build
+                    </button>
+                    <div id="loadMenu" class="dropdown-menu" data-toggle="tooltip" data-placement="right"
+                            title="Right click to Delete."></div>
+                </div>
+
+                <div id="selectJob" onclick="changeJob()"></div>
+                
+                <!-- Default dropup button -->
+                <div id="jobDrop" class="btn-group dropup">
+                    <button id="jobDropButton" type="button" class="btn dropdown-toggle"
+                    data-toggle="dropdown" data-offset="-40,5" aria-haspopup="true" aria-expanded="false">
+                    <label id="jobChangeLabel"></label>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" onclick="changeJob(arcanist_skills, 'Arcanist')" href="#">Arcanist</a>
+                        <a class="dropdown-item" onclick="changeJob(phantom_stalker_skills, 'Phantom Stalker')" href="#">Phantom Stalker</a>
+                        <!--<a class="dropdown-item" onclick="changeJob(barbarian_skills, 'Barbarian')" href="#">Barbarian</a>-->
+                        <a class="dropdown-item" onclick="changeJob(chaotic_knight_skills, 'Chaotic Knight')" href="#">Chaotic Knight</a>
+                        <!--<a class="dropdown-item" onclick="changeJob(chronowarper_skills, 'Chronowarper')" href="#">Chronowarper</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(cleric_skills, 'Cleric')" href="#">Cleric</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(druid_skills, 'Druid')" href="#">Druid</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(earthquaker_skills, 'Earthquaker')" href="#">Earthquaker</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(hydromancer_skills, 'Hydromancer')" href="#">Hydromancer</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(aeromancer_skills, 'Aeromancer')" href="#">Aeromancer</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(medicaster_skills, 'Medicaster')" href="#">Medicaster</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(paladin_skills, 'Paladin')" href="#">Paladin</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(pyromancer_skills, 'Pyromancer')" href="#">Pyromancer</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(ranger_skills, 'Ranger')" href="#">Ranger</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(shadowblade_skills, 'Shadowblade')" href="#">Shadowblade</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(shadow_shaman_skills, 'Shadow Shaman')" href="#">Shadow Shaman</a>-->
+                        <!--<a class="dropdown-item" onclick="changeJob(venomancer_skills, 'Venomancer')" href="#">Venomancer</a>-->
+                        <a class="dropdown-item" onclick="changeJob(warrior_skills, 'Warrior')" href="#">Warrior</a>
+                    </div>
+                </div>
+            
+                <div id="skills_pane">
+                    <div class="media-middle">
+                        <img id="panel_hero_icon" class="media-object">
+                    </div>
+                    <div class="info_linebreak"></div>
+                    
+                    <div id="charInfo">
+                        <div class="heroInfo">
+                            <label id="heroNameLabel"></label>
+                            <label id="heroNameValue">Arcanist (Level 30)</label>
+                            <br>
+                            <label id="heroSylphLabel"></label>
+                            <label id="heroSylphValue">Yes</label>
+                            <br>
+                            <label id="heroWLLabel"></label>
+                            <label id="heroWLValue">1</label>
+                            <br>
+                            <label id="heroFusionLabel"></label>
+                            <label id="heroFusionValue">1</label>
+                            <br>
+                            <label id="heroAchLabel"></label>
+                            <label id="heroAchValue">1</label>
+                        </div>
+                    </div>
+                    
+                    <div id="charOptions">
+                        <div class="info_linebreak"></div>
+                        <div id="levelDrop" class="btn-group dropdown">
+                            <button type="button" class="btn dropdown-toggle"
+                            data-toggle="dropdown" data-offset=",0" aria-haspopup="true" aria-expanded="false"></button>
+                            <label id="levelChangeLabel"></label>
+                            <div class="dropdown-menu scrollable-menu" id="levelDropdownContent">
+                            </div>
+                        </div>
+                        <div id="wlDrop" class="btn-group dropdown">
+                            <button type="button" class="btn dropdown-toggle"
+                            data-toggle="dropdown" data-offset="2,0" aria-haspopup="true" aria-expanded="false"></button>
+                            <label id="wlLabel"></label>
+                            <div class="dropdown-menu scrollable-menu" id="wlDropdownContent">
+                            </div>
+                        </div>
+                        
+                        <div id="options_select">
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="sylphCheckbox" type="checkbox" onclick="toggleSylph()">
+                                    <label class="optionsLabel">Sylph's Hero Trial (+1 TT)</label>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="fusion7Checkbox" type="checkbox" onclick="changeFusion(7)">
+                                    <label class="optionsLabel">Fusion Lvl 7 (+1 TT)</label>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="fusion9Checkbox" type="checkbox" onclick="changeFusion(9)">
+                                    <label class="optionsLabel">Fusion Lvl 9 (+3 TT)</label>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="ach5Checkbox" type="checkbox" onclick="changeAchTier(1)">
+                                    <label class="optionsLabel">Achievement Tier 5 (+1 TT)</label>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="ach8Checkbox" type="checkbox" onclick="changeAchTier(2)">
+                                    <label class="optionsLabel">Achievement Tier 8 (+1 TT)</label>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="ach9Checkbox" type="checkbox" onclick="changeAchTier(3)">
+                                    <label class="optionsLabel">Achievement Tier 9 (+2 TT)</label>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="ach13Checkbox" type="checkbox" onclick="changeAchTier(4)">
+                                    <label class="optionsLabel">Achievement Tier 13 (+2 TT)</label>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <span class="input-group-addon">
+                                    <input id="championCheckbox" type="checkbox" onclick="toggleChampion()">
+                                    <label class="optionsLabel">[Immortal] Achievement (+1 TT)</label>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div id="achTier_select">
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            
+        </div>
+    
+    </div>
+    
+    <div id="info_box">
+        
+        <div id="info_name"><p></p></div>
+        
+        <div id="info_element"><p></p></div>
+        
+        <div id="info_content">
+        
+            <div id="info_image_box">
+                <div id="info_image"></div>
+            </div>
+            
+            <div id="info_top_description">
+            
+                <div class="info_resource"></div>
+                <div class="info_level"></div>
+            
+            </div>
+            
+            <div id="info_description"></div>
+            
+            <div class="info_linebreak"></div>
+            
+            <div id="info_description_2"></div>
+            
+            <div class="info_linebreak"></div>
+        
+            <div id="info_description_3"></div>
+        
+        </div>
+        
+    </div>
+    
+    <!-- Skill Calc End -->
+    
+    <!-- Info JavaScript -->
+    <script type="text/javascript" src="scripts/arcanist.js"></script>
+    <script type="text/javascript" src="scripts/phantom_stalker.js"></script>
+    <!--<script type="text/javascript" src="scripts/barbarian.js"></script>-->
+    <script type="text/javascript" src="scripts/chaotic_knight.js"></script>
+    <!--<script type="text/javascript" src="scripts/chronowarper.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/cleric.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/earthquaker.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/hydromancer.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/aeromancer.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/medicaster.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/paladin.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/pyromancer.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/ranger.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/shadowblade.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/shadow_shaman.js"></script>-->
+    <!--<script type="text/javascript" src="scripts/venomancer.js"></script>-->
+    <script type="text/javascript" src="scripts/warrior.js"></script>
+    
+    <!-- jQuery, Popper, Bootstrap -->
+    <script src="scripts/jquery.slim.min.js"></script>
+    <script src="scripts/popper.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    
+    <!-- Other JavaScript -->
+    <!-- <script src="scripts/jquery-ui.min.js"></script> -->
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/save_load.js"></script>
+    
+</body>
+
+</html>

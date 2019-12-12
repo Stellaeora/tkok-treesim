@@ -1,0 +1,23 @@
+
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": "",
+			"maxLevel": 0,
+            "lvlReq": 0,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+            
+Sample active ability types:
+Gash: Melee / Target / Instantaneous
+Arcanic Missile: Ranged / Target / Projectile
+Arcanic Disruption: Ranged / Target / Area Continuous
+Arcanic Explosion: Ranged / Area Caster
+Unstable Power: Buff / Self
