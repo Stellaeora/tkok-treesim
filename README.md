@@ -2,8 +2,8 @@
 The code behind [this](https://angelxice.ca/etc/tkok/ttree/TreeSimulator.html).
 
 ### Current Status
-Completed classes: Arcanist, Phantom Stalker, Warrior, Chaotic Knight
-Uncompleted classes: Everything else
+* Completed classes: Arcanist, Phantom Stalker, Warrior, Chaotic Knight
+* Uncompleted classes: Everything else
 
 ### Running the simulator
 Just open `TreeSimulator.html` in your browser. The simulator is pure HTML+JS, so no other setup is necessary.
@@ -15,6 +15,7 @@ Just open `TreeSimulator.html` in your browser. The simulator is pure HTML+JS, s
 4. Inside `scripts/index.js`, do a Find (CTRL+F) for your given class's identifier (e.g. `shadow_shaman`). You'll find a few commented blocks -- uncomment them.
 
 ### The class data
+It's easiest to just copy an existing class script and modify it.
 The class scripts are located in `scripts/`. At the very top of each script is the following line:
 `var warrior_skills = [`
 This has to be the correct identifier for the class.
