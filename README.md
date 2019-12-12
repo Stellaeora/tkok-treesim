@@ -41,6 +41,7 @@ The rest of the file follows a fairly consistent pattern. The class data is divi
 }
 ```
 The meaning of all these properties is as follows:
+
 Field Name | Type | Description
 ---- | ---- | ----
 hidden | Boolean (0 or 1) | If 1, it means this talent slot is empty (there is no talent in that slot).
