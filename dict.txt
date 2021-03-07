@@ -1799,7 +1799,7 @@ You have saved in Single Player. This password will only work in single player!
 你的密码保存在魔兽争霸3文件夹下TKoK_Save_Files
 Your password is saved in your Warcraft 3 folder under TKoK_Save_Files
 代码错误!
-Invalid Loadcode!
+Invalid loadcode. If you are on Reforged, use -loadwith [name] to specify your old name.
 你的存档代码是:
 Your password is:
 : 错误属性. 无法保存. 请洗点后重新保存!
@@ -3129,7 +3129,7 @@ Increases threat generation. If this talent is learned, Divine Light can no long
 圣力环绕
 Holy Field
 启明之光提高移速 *0/25/50/75*. 提高启明之光半径 *0/100/200/300*.^第一点: 圣环会阻止敌人通过.^第二点: 圣光目标脚下产生圣火, 持续快速治疗.^第三点: 圣骑士转化神圣棱镜吸收的伤害为 群体治疗.
-Divine Light's AoE is increased by *0/100/200/300*, and it will add *0/25/50/75* bonus movespeed. First point: Summons a holy ring that repels enemies. Second point: While inside Divine Light, Divine Touch produces holy flame at allies' feet, rapidly healing over time. Third point: Damage received from Holy Prism is converted to healing that is distributed among allies inside Divine Light.
+Increase Divine Light's AoE by *0/100/200/300*, and allies inside it gain *0/25/50/75* movespeed. First point: Summons a holy ring that repels enemies. Second point: Divine Touch produces holy flame at allies' feet, rapidly healing over time. Third point: Damage received from Holy Prism is converted to healing that is distributed among allies inside Divine Light.
 远古护盾
 Ancient Shield
 学习远古护盾: 对单体友军施加护盾, 减免伤害10% + 0.1%每等级.
@@ -3293,7 +3293,7 @@ Apply the following effects while Assassin Dash is active:^First point: Gash has
 强化顺势斩
 Improved Cleave
 顺势斩只计算一次护甲. 提高顺势斩分裂伤害 *0/10/20/30*%
-Cleave only calculates armor once. Increase Cleave damage by *0/10/20/30*%
+The AoE damage dealt by Cleave now ignores armor. Increase Cleave's damage ratio from 70% to *70/77/84/91*%.
 重创
 Eviscerate
 被顺势斩击中的敌人将会受到 *0/20/40/60*% 流血伤害. 提高主目标伤害 *0/20/40/60*%.
@@ -7793,7 +7793,7 @@ Commander Gulat
 火焰领主
 Flame Lord
 火焰发射器
-Flame Launcher
+Flame Incarnation
 火球碎片
 Flame Emitter
 堕落的兽人战士
@@ -16257,7 +16257,7 @@ Increase Watery Bubble healing time by 2 seconds. Ice Barrier provides 100% effe
 STRING_ARTIFACT_KARRIX_EFFECT3
 Increase Mandala damage by 30% and duration by 5 seconds. Mandala adds 0.01 x Level mana regen and 0.2 x Level life regen for all allies.
 STRING_ARTIFACT_KARRIX_EFFECT4
-Empowered Arcanic Disruption will no longer remove the orb after exploding. Increase the explosion damage by 100%.
+Empowered Arcanic Disruption will no longer remove the orb after exploding. Increase the explosion damage by 40%.
 STRING_ARTIFACT_KARRIX_BUFFTIP
 This unit's Magic Resist is greatly increased.
 STRING_ARTIFACT_AVNOS_NAME
@@ -16265,7 +16265,7 @@ Emblem of Inferno
 STRING_ARTIFACT_AVNOS_DESC
 It carries the fury of the sun within its golden facets
 STRING_ARTIFACT_AVNOS_EFFECT1
-Autoattacks consume 2% of current Life and deal additional pure damage equal to 15x the consumed Life.
+Autoattacks consume 1.5% of current Life and deal additional pure damage equal to 20x the consumed Life.
 STRING_ARTIFACT_AVNOS_EFFECT2
 Aspect of the Hawk adds 1.3x attack speed and damage. Aspect of the Viper's proc rate is increased by 20%.
 STRING_ARTIFACT_AVNOS_EFFECT3
@@ -16281,7 +16281,7 @@ Autoattacks deal 1 damage but heal the hero for 3% of max Life per hit. Effect i
 STRING_ARTIFACT_KARNOS_EFFECT2
 Heavenly Rain/Disrupting Rain will apply both debuffs at once (armor and attack speed reduction).
 STRING_ARTIFACT_KARNOS_EFFECT3
-Watery Bubble will proc Ice Nova twice when used on an enemy; once on cast and once on expiry. Increase Ice Nova's freeze chance by 10%.
+Watery Bubble will proc Ice Nova twice when used on an enemy; once on cast and once on expiry. Reduce Ice Nova's freeze chance by 10%.
 STRING_ARTIFACT_KARNOS_EFFECT4
 Light Infusion adds 100 movespeed to the target while active.
 STRING_ARTIFACT_KARAVNOS_NAME
@@ -16305,7 +16305,7 @@ Increase all damage dealt, all healing dealt, and all damage taken by 8%.
 STRING_ARTIFACT_MUARKI_EFFECT2
 Reduce Fire Form/Phoenix Form's life and mana drain by 50%. Reduce the inner cooldown of Rebirth by 50 seconds.
 STRING_ARTIFACT_MUARKI_EFFECT3
-Tender Cure heals all allies in 350 AoE of the target for 20% of Tender Cure's initial heal. (Does not heal the target with this effect)
+Tender Cure heals all allies in 400 AoE of the target for 20% of Tender Cure's initial heal. (Does not heal the target with this effect)
 STRING_ARTIFACT_MUARKI_EFFECT4
 Increase Berserker Rage duration by 6 seconds.
 STRING_ARTIFACT_VJAIER_NAME
@@ -16327,7 +16327,7 @@ The fury of the ancient gods seeps through its straps
 STRING_ARTIFACT_CRUELTIS_EFFECT1
 All abilities have a 6% chance to ignore cooldown.
 STRING_ARTIFACT_CRUELTIS_EFFECT2
-Lithosensing Slash will now heal allies for 0.7 * Spell Power. Chronowarper will be healed by half this amount.
+Lithosensing Slash will now heal allies for 0.9 * Spell Power. Chronowarper will be healed by half this amount.
 STRING_ARTIFACT_CRUELTIS_EFFECT3
 Multishot can only attack 2 enemies per wave but its damage is increased by 35%.
 STRING_ARTIFACT_CRUELTIS_EFFECT4
@@ -16337,7 +16337,7 @@ Charm of Wind
 STRING_ARTIFACT_TALNAVI_DESC
 The wrath of a hurricane in the palm of your hand
 STRING_ARTIFACT_TALNAVI_EFFECT1
-Total movespeed cannot fall below 350 by any means. (Does not affect Chronowarper in Astral Jaunt form.)
+Total movespeed cannot fall below 370 by any means. (Does not affect Chronowarper in Astral Jaunt form.)
 STRING_ARTIFACT_TALNAVI_EFFECT2
 Guardian Angel restores 15 Mana to allies in range. If Conjurator is talented, increase Blasphemy damage by 35% instead.
 STRING_ARTIFACT_TALNAVI_EFFECT3
@@ -16349,7 +16349,7 @@ Shifting Tide
 STRING_ARTIFACT_MKARSA_DESC
 Its very form is woven from flowing water
 STRING_ARTIFACT_MKARSA_EFFECT1
-Grants a 25% chance to reduce any damage taken by 25%.
+Grants a 30% chance to reduce any damage taken by 30%.
 STRING_ARTIFACT_MKARSA_EFFECT2
 Iron Blood provides half effect of the offhand not being equipped.
 STRING_ARTIFACT_MKARSA_EFFECT3
@@ -16379,9 +16379,9 @@ Reduce the duration of Silence, Ensnare, Disarm, Disable, and Taunt to 1 second.
 STRING_ARTIFACT_ORTAKNA_EFFECT2
 Increase the duration of all elemental debuffs by 40%.
 STRING_ARTIFACT_ORTAKNA_EFFECT3
-Remorseless Strike restores 50% less mana but restores mana and heals 10% of your max Life to all allies in 1000 AoE.
+Remorseless Strike restores 35% less mana but restores mana and heals 5% of your max Life to all allies in 800 AoE.
 STRING_ARTIFACT_ORTAKNA_EFFECT4
-Current Surge adds 10% spell dodge and activates a 10 second thunder shield that absorbs 1 * Spell Power damage.
+Current Surge adds 10% spell dodge and activates a 30 second thunder shield that absorbs 1 * Spell Power damage.
 STRING_ARTIFACT_ORTAKNA_AERO_BUFFNAME
 Thunder Shield
 STRING_ARTIFACT_ORTAKNA_AERO_BUFFTIP
@@ -16391,13 +16391,13 @@ Cloak of Damnation
 STRING_ARTIFACT_GHOUL_DESC
 It screams with the pain of a thousand rotting souls
 STRING_ARTIFACT_GHOUL_EFFECT1
-Reduce magic damage taken to 0.7x if Mana and Life are both above 40%. If not, increase magic damage taken to 1.3x instead.
+Reduce magic damage taken to 0.7x if Mana and Life are both above 33%. If not, increase magic damage taken to 1.3x instead.
 STRING_ARTIFACT_GHOUL_EFFECT2
-Increase Assassin Dash duration by 1 second. Increase Hail of Blades damage by 35%, or 75% if Bloody Stance is talented.
+Increase Backstab's damage bonus by 10% but halves the angle in which it can activate.
 STRING_ARTIFACT_GHOUL_EFFECT3
 Increase Descent of the Ancestors stack duration by 2 seconds. Descent of the Ancestors no longer kills hero after it expires.
 STRING_ARTIFACT_GHOUL_EFFECT4
-Divine Touch now dispels debuffs from allies or buffs from enemies. Increase Divine Touch's mana consumption by 10.
+Divine Touch now dispels debuffs from allies or buffs from enemies. Increase Divine Touch's mana consumption by 5.
 STRING_IMMORTAL_ERROR
 You must have the [Immortal] achievement to toggle this character effect.
 STRING_CHAMPION_VENDOR_1
@@ -16408,3 +16408,13 @@ STRING_CHAMPION_VENDOR_3
 in Champion Difficulty to be eligible for purchasing this item.
 STRING_CHAMPION_SAVE_REMINDER
 Make sure to save your Account Code!
+STRING_CANNOT_NAME_CONVERT
+You cannot use this command as you have already loaded.
+STRING_NAME_CONVERTED
+You can now load codes from your old name:
+STRING_NAME_CONVERT_WARNING
+You must enter this command every time you wish to load this character on Reforged.
+STRING_REFORGED_LOAD_TIP
+Enter |cffff0000-loadwith|r [old name] to load a code from Classic WC3 onto Reforged.
+STRING_REFORGED_ONLY
+This function can only be used in Reforged.

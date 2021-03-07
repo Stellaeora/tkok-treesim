@@ -56,3 +56,7 @@ lockReq | String | A string containing 30 digits, separated by dashes. Each digi
 requirement | String | This field is used internally. Leave it empty.
 info | String | Contains the header text for the talent. If the talent is passive, then this should just contain the value "p". For actives, it contains the target and affected by info.
 texts | Array (String) | The descriptions for each talent. The first entry is always an empty string `""`. Each line after that represents the levels of the talent.
+
+### Other Information
+ - Included in this repository is a recent-ish copy of the internal translation dictionary, under `dict.txt`. This contains all the text in the game (including talents) and can be used to lookup the in-game talent text.
+ - There is no mobile support. If you want to add it...good luck.
