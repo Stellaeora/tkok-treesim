@@ -2,8 +2,8 @@
 The code behind [this](https://angelxice.ca/etc/tkok/ttree/TreeSimulator.html).
 
 ### Current Status
-Completed classes: Arcanist, Phantom Stalker, Warrior, Chaotic Knight
-Uncompleted classes: Everything else
+Completed classes: Arcanist, Phantom Stalker, Warrior, Chaotic Knight, Barbarian
+Uncompleted classes: Ranger, Pyromancer, Hydromancer, Cleric, Paladin, Shadow Shaman, Earthquaker, Venomancer, Chronowarper, Medicaster, Druid, Shadowblade, Aeromancer
 
 ### Running the simulator
 Just open `TreeSimulator.html` in your browser. The simulator is pure HTML+JS, so no other setup is necessary.

@@ -79,10 +79,10 @@ function loadUrlPoints(){
                 job = phantom_stalker_skills;
                 class_name = "Phantom Stalker";
                 break;
-            /*case 2:
+            case 2:
                 job = barbarian_skills;
                 class_name = "Barbarian";
-                break;*/
+                break;
             case 3:
                 job = chaotic_knight_skills;
                 class_name = "Chaotic Knight";
@@ -690,7 +690,7 @@ function setUrl(){
 	let job = 0;
 	if( Class_skills == arcanist_skills ){ job = 0; }
 	if( Class_skills == phantom_stalker_skills ){ job = 1; }
-	//if( Class_skills == barbarian_skills ){ job = 2; }
+	if( Class_skills == barbarian_skills ){ job = 2; }
 	if( Class_skills == chaotic_knight_skills ){ job = 3; }
 	//if( Class_skills == chronowarper_skills ){ job = 4; }
 	//if( Class_skills == cleric_skills ){ job = 5; }
@@ -1061,7 +1061,7 @@ function setJobLines(){
 	let name = "arcanist";
 	if( Class_skills == arcanist_skills ){ name = "arcanist"; }
 	if( Class_skills == phantom_stalker_skills ){ name = "phantom_stalker"; }
-	//if( Class_skills == barbarian_skills ){ name = "barbarian"; }
+	if( Class_skills == barbarian_skills ){ name = "barbarian"; }
 	if( Class_skills == chaotic_knight_skills ){ name = "chaotic_knight"; }
 	//if( Class_skills == chronowarper_skills ){ name = "chronowarper"; }
 	//if( Class_skills == cleric_skills ){ name = "cleric"; }
