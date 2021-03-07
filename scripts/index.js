@@ -91,10 +91,10 @@ function loadUrlPoints(){
                 job = chronowarper_skills;
                 class_name = "Chronowarper";
                 break;*/
-            /*case 5:
+            case 5:
                 job = cleric_skills;
                 class_name = "Cleric";
-                break;*/
+                break;
             /*case 6:
                 job = druid_skills;
                 class_name = "Druid";
@@ -632,17 +632,6 @@ function setSkillLock(){
 				skillMinus[i].classList.replace("max", "minus");
 			}
 
-			// Locks base skills(0, 1) from having 0 points.
-            /*
-			if( i == 0 || i == 1) {
-				if (parseInt(levels[i]) == 1) {
-					skillMinus[i].classList.replace("minus", "max");
-				} else {
-					skillMinus[i].classList.replace("max", "minus");
-				}
-			}
-            */
-
 			if( parseInt(levels[i]) == maxLevels[i] ){
 				skillPlus[i].classList.replace("plus", "min");
 				if (skillMinus[i].classList.contains("max")) {
@@ -665,15 +654,6 @@ function setSkillLock(){
 				skillPlus[i].classList.remove("plus_locked");
 				skillMinus[i].classList.remove("max_locked");
 			}
-
-			// Locks sp and movement skill(12, 18)
-            /*
-			if(i == 12 || i == 18 ){
-				skillPlus[i].classList.add("plus_locked");
-				skillPlus[i].classList.replace("min", "plus");
-				skillMinus[i].classList.add("minus_locked");
-			}
-            */
 		}
 	
 	}, 100);
@@ -693,7 +673,7 @@ function setUrl(){
 	if( Class_skills == barbarian_skills ){ job = 2; }
 	if( Class_skills == chaotic_knight_skills ){ job = 3; }
 	//if( Class_skills == chronowarper_skills ){ job = 4; }
-	//if( Class_skills == cleric_skills ){ job = 5; }
+	if( Class_skills == cleric_skills ){ job = 5; }
 	//if( Class_skills == druid_skills ){ job = 6; }
 	//if( Class_skills == earthquaker_skills ){ job = 7; }
 	//if( Class_skills == hydromancer_skills ){ job = 8; }
@@ -742,15 +722,6 @@ function setUrl(){
 function resetSkills(){
 
 	for (let i=0; i < levels.length; i++){
-		/*
-		if( i == 12 || i == 18 ){ continue; }
-		
-		if( i == 0 || i == 1 ){
-			levels[i] = 1;
-		}else{
-			levels[i] = 0;
-		}
-        */
         levels[i] = 0;
 		
 		let skillTexts = document.getElementsByClassName("skill_text");
@@ -931,9 +902,6 @@ function changeSkillPoints(event, value){
 
 	for(let i=0; i < titles.length; i++){
 	
-		// Prevent skill(12, 18) to be increased/decreased
-		// if( i == 12 || i == 18 ){ continue; }
-	
 		if( titles[i] == infoTitle ){
 			
 			// Check if points should increase or decrease
@@ -1064,7 +1032,7 @@ function setJobLines(){
 	if( Class_skills == barbarian_skills ){ name = "barbarian"; }
 	if( Class_skills == chaotic_knight_skills ){ name = "chaotic_knight"; }
 	//if( Class_skills == chronowarper_skills ){ name = "chronowarper"; }
-	//if( Class_skills == cleric_skills ){ name = "cleric"; }
+	if( Class_skills == cleric_skills ){ name = "cleric"; }
 	//if( Class_skills == druid_skills ){ name = "druid"; }
 	//if( Class_skills == earthquaker_skills ){ name = "earthquaker"; }
 	//if( Class_skills == hydromancer_skills ){ name = "hydromancer"; }

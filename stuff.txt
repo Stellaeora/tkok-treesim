@@ -22,3 +22,4 @@ Arcanic Missile: Ranged / Target / Projectile
 Arcanic Disruption: Ranged / Target / Area Continuous
 Arcanic Explosion: Ranged / Area Caster
 Unstable Power: Buff / Self
+Heavenly Rain: Heal / Continuous / Area Caster
