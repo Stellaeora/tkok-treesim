@@ -9,7 +9,7 @@ var warrior_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>3sec</span>",
             "texts": [
                 "",
                 "<p><span class='info_gray'>Teaches Shield Slam: A single target attack that deals physical damage.",
@@ -29,9 +29,9 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Shield Slam now stuns the target for a short duration, or deals <span class='info_blue'>16%</span> more damage against targets immune to being stunned.",
-                "Shield Slam now stuns the target for a short duration, or deals <span class='info_blue'>32%</span> more damage against targets immune to being stunned.",
-                "Shield Slam now stuns the target for a short duration, or deals <span class='info_blue'>48%</span> more damage against targets immune to being stunned.<br>Defensive Stance: Shield Slam grants a <span class='info_blue'>1.5s</span> buff that reflects all physical damage taken back to the attacker.<br>Aggressive Stance: Shield Slam grants a <span class='info_blue'>1s</span> buff that adds <span class='info_blue'>100%</span> Attack Crit Power.",
+                "- Shield Slam now stuns the target for a short duration, or deals <span class='info_blue'>16%</span> more damage against targets immune to being stunned.",
+                "- Shield Slam now stuns the target for a short duration, or deals <span class='info_blue'>32%</span> more damage against targets immune to being stunned.",
+                "- Shield Slam now stuns the target for a short duration, or deals <span class='info_blue'>48%</span> more damage against targets immune to being stunned.<br>- Defensive Stance: Shield Slam grants a <span class='info_blue'>1.5s</span> buff that reflects all physical damage taken back to the attacker.<br>- Aggressive Stance: Shield Slam grants a <span class='info_blue'>1s</span> buff that adds <span class='info_blue'>100%</span> Attack Crit Power.",
             ]
         }
     ],[
@@ -60,10 +60,10 @@ var warrior_skills = [
             "lvlReq": 12,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Power, Attack Power</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Power, Attack Power</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>30sec</span> , Duration: <span class='info_gray'>60sec</span>",
             "texts": [
                 "",
-                "Teaches Battle Orders: Increases the max Life of all nearby heroes for <span class='info_blue'>60s</span>.",
+                "Teaches Battle Orders: Increases the max Life of all nearby heroes.",
             ]
         }
     ],[
@@ -80,8 +80,8 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Battle Orders now adds max Mana as well and grants the Warrior <span class='info_blue'>3</span> mana recovery on every critical attack.",
-                "Battle Orders now adds max Mana as well and grants the Warrior <span class='info_blue'>3</span> mana recovery on every critical attack.<br>Every time the Warrior regenerates 30 total mana, surrounding friendly heroes also recover <span class='info_blue'>30</span> mana.",
+                "- Battle Orders now adds max Mana as well and grants the Warrior <span class='info_blue'>3</span> mana recovery on every critical attack.",
+                "- Battle Orders now adds max Mana as well and grants the Warrior <span class='info_blue'>3</span> mana recovery on every critical attack.<br>- Every time the Warrior regenerates 30 total mana, surrounding friendly heroes also recover <span class='info_blue'>30</span> mana.",
             ]
         }
     ],
@@ -95,7 +95,7 @@ var warrior_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Movement</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Movement</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>20</span> , Cooldown: <span class='info_gray'>15sec</span>",
             "texts": [
                 "",
                 "Teaches Charge: Dashes to the target, dealing damage and knocking it back. Deals reduced damage and knockback to any enemies caught in the path of the charge.",
@@ -115,7 +115,7 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Defensive Stance: Taunts the attacked target.<br>Aggressive Stance: Significantly increases Charge's damage (applied only at Hero Level 30+)."
+                "- <span class='info_blue'>Defensive Stance:</span> Taunts the attacked target.<br>- <span class='info_blue'>Aggressive Stance:</span> Significantly increases Charge's damage (applied only at Hero Level 30+)."
             ]
         }
     ],[
@@ -128,7 +128,7 @@ var warrior_skills = [
             "lvlReq": 4,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>5sec</span>",
             "texts": [
                 "",
                 "Teaches Whirlwind: Deals physical damage to all enemies around the Warrior",
@@ -148,7 +148,7 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Whirlslash now deals <span class='info_blue'>85%</span> increased damage against enemies that are stunned from Shield Slam.<br>Aggressive Stance: Further increases Whirlslash damage by <span class='info_blue'>25%</span> against enemies affected by Intimidating Bellow.",
+                "- Whirlslash now deals <span class='info_blue'>85%</span> increased damage against enemies that are stunned from Shield Slam.<br>- <span class='info_blue'>Aggressive Stance:</span> Further increases Whirlslash damage by <span class='info_blue'>25%</span> against enemies affected by Intimidating Bellow.",
             ]
         }
     ],[
@@ -165,9 +165,9 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increase Whirlwind radius by <span class='info_blue'>50</span>.<br>Defensive Stance: Whirlwind now grants a <span class='info_blue'>1s</span> buff that changes blocked attack damage reduction from 50% to <span class='info_blue'>60%</span>.",
-                "Increase Whirlwind radius by <span class='info_blue'>100</span>.<br>Defensive Stance: Whirlwind now grants a <span class='info_blue'>1s</span> buff that changes blocked attack damage reduction from 50% to <span class='info_blue'>75%</span>.",
-                "Increase Whirlwind radius by <span class='info_blue'>150</span>.<br>Defensive Stance: Whirlwind now grants a <span class='info_blue'>1s</span> buff that changes blocked attack damage reduction from 50% to <span class='info_blue'>90%</span>.",
+                "- Increase Whirlwind radius by <span class='info_blue'>50</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Whirlwind now grants a <span class='info_blue'>1s</span> buff that changes blocked attack damage reduction from 50% to <span class='info_blue'>60%</span>.",
+                "- Increase Whirlwind radius by <span class='info_blue'>100</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Whirlwind now grants a <span class='info_blue'>1s</span> buff that changes blocked attack damage reduction from 50% to <span class='info_blue'>75%</span>.",
+                "- Increase Whirlwind radius by <span class='info_blue'>150</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Whirlwind now grants a <span class='info_blue'>1s</span> buff that changes blocked attack damage reduction from 50% to <span class='info_blue'>90%</span>.",
             ]
         }
     ],
@@ -180,10 +180,10 @@ var warrior_skills = [
             "maxLevel": 1,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>12sec</span>",
             "texts": [
                 "",
-                "Teaches Intimidating Bellow: Deals physical damage to a single target and reduces their movement speed by <span class='info_blue'>15%</span> and attack speed by <span class='info_blue'>12%</span> for 12 seconds.",
+                "Teaches Intimidating Bellow: Deals physical damage to a single target and reduces their movement speed by <span class='info_blue'>15%</span> and attack speed.",
             ]
         }
     ],[
@@ -200,9 +200,9 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Intimidating Bellow's attack speed reduction is increased to <span class='info_blue'>20%</span>.<br>Defensive Stance: Each autoattack on the debuffed target decreases their attack speed by a further <span class='info_blue'>1%</span>. This effect stacks up to <span class='info_blue'>10</span> times.<br>Aggressive Stance: Intimidating Bellow now also inflicts a bleed effect that deals <span class='info_blue'>10%</span> of Intimidating Bellow's base damage per second for <span class='info_blue'>5s</span>.",
-                "Intimidating Bellow's attack speed reduction is increased to <span class='info_blue'>20%</span>.<br>Defensive Stance: Each autoattack on the debuffed target decreases their attack speed by a further <span class='info_blue'>2%</span>. This effect stacks up to <span class='info_blue'>10</span> times.<br>Aggressive Stance: Intimidating Bellow now also inflicts a bleed effect that deals <span class='info_blue'>15%</span> of Intimidating Bellow's base damage per second for <span class='info_blue'>8s</span>.",
-                "Intimidating Bellow's attack speed reduction is increased to <span class='info_blue'>20%</span>.<br>Defensive Stance: Each autoattack on the debuffed target decreases their attack speed by a further <span class='info_blue'>3%</span>. This effect stacks up to <span class='info_blue'>10</span> times.<br>Aggressive Stance: Intimidating Bellow now also inflicts a bleed effect that deals <span class='info_blue'>20%</span> of Intimidating Bellow's base damage per second for <span class='info_blue'>11s</span>.",
+                "- Intimidating Bellow's attack speed reduction is increased to <span class='info_blue'>20%</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Each autoattack on the debuffed target decreases their attack speed by a further <span class='info_blue'>1%</span>. This effect stacks up to <span class='info_blue'>10</span> times.<br>- <span class='info_blue'>Aggressive Stance:</span> Intimidating Bellow now also inflicts a bleed effect that deals <span class='info_blue'>10%</span> of Intimidating Bellow's base damage per second for <span class='info_blue'>5s</span>.",
+                "- Intimidating Bellow's attack speed reduction is increased to <span class='info_blue'>20%</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Each autoattack on the debuffed target decreases their attack speed by a further <span class='info_blue'>2%</span>. This effect stacks up to <span class='info_blue'>10</span> times.<br>- <span class='info_blue'>Aggressive Stance:</span> Intimidating Bellow now also inflicts a bleed effect that deals <span class='info_blue'>15%</span> of Intimidating Bellow's base damage per second for <span class='info_blue'>8s</span>.",
+                "- Intimidating Bellow's attack speed reduction is increased to <span class='info_blue'>20%</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Each autoattack on the debuffed target decreases their attack speed by a further <span class='info_blue'>3%</span>. This effect stacks up to <span class='info_blue'>10</span> times.<br>- <span class='info_blue'>Aggressive Stance:</span> Intimidating Bellow now also inflicts a bleed effect that deals <span class='info_blue'>20%</span> of Intimidating Bellow's base damage per second for <span class='info_blue'>11s</span>.",
             ]
         }
     ],[
@@ -231,7 +231,7 @@ var warrior_skills = [
             "lvlReq": 18,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>25</span> , Cooldown: <span class='info_gray'>30sec</span>, Duration: <span class='info_gray'>3sec</span>",
             "texts": [
                 "",
                 "Teaches Heroic Shout: A self buff that reduces damage taken by <span class='info_blue'>55%</span> for <span class='info_blue'>3s</span> and generates threat on all enemies near the Warrior.",
@@ -341,11 +341,11 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases the duration of the Listener buff by <span class='info_blue'>1.5s</span> and increases its effect by <span class='info_blue'>10%</span>.<br>When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
-                "Increases the duration of the Listener buff by <span class='info_blue'>3.0s</span> and increases its effect by <span class='info_blue'>20%</span>.<br>When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
-                "Increases the duration of the Listener buff by <span class='info_blue'>4.5s</span> and increases its effect by <span class='info_blue'>30%</span>.<br>When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
-                "Increases the duration of the Listener buff by <span class='info_blue'>6.0s</span> and increases its effect by <span class='info_blue'>40%</span>.<br>When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
-                "Increases the duration of the Listener buff by <span class='info_blue'>7.5s</span> and increases its effect by <span class='info_blue'>50%</span>.<br>When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
+                "- Increases the duration of the Listener buff by <span class='info_blue'>1.5s</span> and increases its effect by <span class='info_blue'>10%</span>.<br>- When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
+                "- Increases the duration of the Listener buff by <span class='info_blue'>3.0s</span> and increases its effect by <span class='info_blue'>20%</span>.<br>- When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
+                "- Increases the duration of the Listener buff by <span class='info_blue'>4.5s</span> and increases its effect by <span class='info_blue'>30%</span>.<br>- When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
+                "- Increases the duration of the Listener buff by <span class='info_blue'>6.0s</span> and increases its effect by <span class='info_blue'>40%</span>.<br>- When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
+                "- Increases the duration of the Listener buff by <span class='info_blue'>7.5s</span> and increases its effect by <span class='info_blue'>50%</span>.<br>- When fully talented, Charge becomes AoE and generates additional threat if in Defensive Stance.",
             ]
         }
     ],
@@ -377,8 +377,8 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases your Magic Resist by <span class='info_blue'>4%</span>.<br>Defensive Stance: Grants a permanent bonus to Life Regen based on Hero Level.<br>Aggressive Stance: Increases Attack Speed by <span class='info_blue'>7.5%</span> plus <span class='info_blue'>0.15%</span> x Hero Level.",
-                "Increases your Magic Resist by <span class='info_blue'>8%</span>.<br>Defensive Stance: Grants a permanent bonus to Life Regen based on Hero Level.<br>Aggressive Stance: Increases Attack Speed by <span class='info_blue'>15%</span> plus <span class='info_blue'>0.3%</span> x Hero Level.",
+                "Increases your Magic Resist by <span class='info_blue'>4%</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Grants a permanent bonus to Life Regen based on Hero Level.<br>- <span class='info_blue'>Aggressive Stance:</span> Increases Attack Speed by <span class='info_blue'>7.5%</span> plus <span class='info_blue'>0.15%</span> x Hero Level.",
+                "Increases your Magic Resist by <span class='info_blue'>8%</span>.<br>- <span class='info_blue'>Defensive Stance:</span> Grants a permanent bonus to Life Regen based on Hero Level.<br>- <span class='info_blue'>Aggressive Stance:</span> Increases Attack Speed by <span class='info_blue'>15%</span> plus <span class='info_blue'>0.3%</span> x Hero Level.",
             ]
         }
     ],[
@@ -392,10 +392,10 @@ var warrior_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Manacost: <span class='info_gray'>30</span> , Cooldown: <span class='info_gray'>14sec</span>",
             "texts": [
                 "",
-                "Defensive Stance: Grants a short buff after using Charge that adds +100 movespeed.<br>Aggressive Stance: Changes Charge's behavior. Charge will now have a 4 second buildup time before dashing to the target and dealing 7 powerful attacks. This effect cannot be interrupted.",
+                "- <span class='info_blue'>Defensive Stance:</span> Grants a short buff after using Charge that adds <span class='info_blue'>+100</span> movespeed.<br>- <span class='info_blue'>Aggressive Stance:</span> Changes Charge's behavior. Charge will now have a <span class='info_blue'>4</span> second buildup time before dashing to the target and dealing <span class='info_blue'>7</span> powerful attacks. This effect cannot be interrupted.",
             ]
         }
     ],[
@@ -502,9 +502,9 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Aggressive Stance: Decreases threat generation.<br>Defensive Stance: Increases threat generation.<br>Apply the following effects:<br> - Charge inflicts a debuff that reduces the main target's armor for <span class='info_blue'>5s</span>.",
-                "Aggressive Stance: Decreases threat generation.<br>Defensive Stance: Increases threat generation.<br>Apply the following effects:<br> - Charge inflicts a debuff that reduces the main target's armor for <span class='info_blue'>5s</span>.<br> - Shield Slam can be used twice before going on cooldown.",
-                "Aggressive Stance: Decreases threat generation and significantly improves Charge's damage.<br>Defensive Stance: Increases threat generation and increases your maximum Block Chance to <span class='info_blue'>80%</span>.<br>Apply the following effects:<br> - Charge inflicts a debuff that reduces the main target's armor for <span class='info_blue'>5s</span>.<br> - Shield Slam can be used twice before going on cooldown.",
+                "- <span class='info_blue'>Aggressive Stance:</span> Decreases threat generation.<br>- <span class='info_blue'>Defensive Stance:</span> Increases threat generation.<br>Apply the following effects:<br> - Charge inflicts a debuff that reduces the main target's armor for <span class='info_blue'>5s</span>.",
+                "- <span class='info_blue'>Aggressive Stance:</span> Decreases threat generation.<br>- <span class='info_blue'>Defensive Stance:</span> Increases threat generation.<br>Apply the following effects:<br> - Charge inflicts a debuff that reduces the main target's armor for <span class='info_blue'>5s</span>.<br> - Shield Slam can be used twice before going on cooldown.",
+                "- <span class='info_blue'>Aggressive Stance:</span> Decreases threat generation and significantly improves Charge's damage.<br>- <span class='info_blue'>Defensive Stance:</span> Increases threat generation and increases your maximum Block Chance to <span class='info_blue'>80%</span>.<br>Apply the following effects:<br> - Charge inflicts a debuff that reduces the main target's armor for <span class='info_blue'>5s</span>.<br> - Shield Slam can be used twice before going on cooldown.",
             ]
         }
     ],[
@@ -521,11 +521,11 @@ var warrior_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases Battle Orders' Life bonus by <span class='info_blue'>15%</span>. Battle Orders now reduces all damage taken by <span class='info_blue'>3%</span>.<br>When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
-                "Increases Battle Orders' Life bonus by <span class='info_blue'>30%</span>. Battle Orders now reduces all damage taken by <span class='info_blue'>6%</span>.<br>When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
-                "Increases Battle Orders' Life bonus by <span class='info_blue'>45%</span>. Battle Orders now reduces all damage taken by <span class='info_blue'>9%</span>.<br>When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
-                "Increases Battle Orders' Life bonus by <span class='info_blue'>60%</span>. Battle Orders now reduces all damage taken by <span class='info_blue'>12%</span>.<br>When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
-                "Increases Battle Orders' Life bonus by <span class='info_blue'>75%</span>. Battle Orders now reduces all damage taken by <span class='info_blue'>15%</span>.<br>When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
+                "- Increases Battle Orders' Life bonus by <span class='info_blue'>15%</span>.<br>- Battle Orders now reduces all damage taken by <span class='info_blue'>3%</span>.<br>- When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
+                "- Increases Battle Orders' Life bonus by <span class='info_blue'>30%</span>.<br>- Battle Orders now reduces all damage taken by <span class='info_blue'>6%</span>.<br>- When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
+                "- Increases Battle Orders' Life bonus by <span class='info_blue'>45%</span>.<br>- Battle Orders now reduces all damage taken by <span class='info_blue'>9%</span>.<br>- When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
+                "- Increases Battle Orders' Life bonus by <span class='info_blue'>60%</span>.<br>- Battle Orders now reduces all damage taken by <span class='info_blue'>12%</span>.<br>- When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
+                "- Increases Battle Orders' Life bonus by <span class='info_blue'>75%</span>.<br>- Battle Orders now reduces all damage taken by <span class='info_blue'>15%</span>.<br>- When fully talented, casting Battle Orders will dispel all positive buffs from all nearby enemies.",
             ]
         }
     ]

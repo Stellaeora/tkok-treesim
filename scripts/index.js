@@ -87,58 +87,58 @@ function loadUrlPoints(){
                 job = chaotic_knight_skills;
                 class_name = "Chaotic Knight";
                 break;
-            /*case 4:
+            case 4:
                 job = chronowarper_skills;
                 class_name = "Chronowarper";
-                break;*/
+                break;
             case 5:
                 job = cleric_skills;
                 class_name = "Cleric";
                 break;
-            /*case 6:
+            case 6:
                 job = druid_skills;
                 class_name = "Druid";
-                break;*/
-            /*case 7:
+                break;
+            case 7:
                 job = earthquaker_skills;
                 class_name = "Earthquaker";
-                break;*/
-            /*case 8:
+                break;
+            case 8:
                 job = hydromancer_skills;
                 class_name = "Hydromancer";
-                break;*/
-            /*case 9:
+                break;
+            case 9:
                 job = aeromancer_skills;
                 class_name = "Aeromancer";
-                break;*/
-            /*case 10:
+                break;
+            case 10:
                 job = medicaster_skills;
                 class_name = "Medicaster";
-                break;*/
-            /*case 11:
+                break;
+            case 11:
                 job = paladin_skills;
                 class_name = "Paladin";
-                break;*/
-            /*case 12:
+                break;
+            case 12:
                 job = pyromancer_skills;
                 class_name = "Pyromancer";
-                break;*/
-            /*case 13:
+                break;
+            case 13:
                 job = ranger_skills;
                 class_name = "Ranger";
-                break;*/
-            /*case 14:
+                break;
+            case 14:
                 job = shadowblade_skills;
                 class_name = "Shadowblade";
-                break;*/
-            /*case 15:
+                break;
+            case 15:
                 job = shadow_shaman_skills;
                 class_name = "Shadow Shaman";
-                break;*/
-            /*case 16:
+                break;
+            case 16:
                 job = venomancer_skills;
                 class_name = "Venomancer";
-                break;*/
+                break;
             case 17:
                 job = warrior_skills;
                 class_name = "Warrior";
@@ -672,19 +672,19 @@ function setUrl(){
 	if( Class_skills == phantom_stalker_skills ){ job = 1; }
 	if( Class_skills == barbarian_skills ){ job = 2; }
 	if( Class_skills == chaotic_knight_skills ){ job = 3; }
-	//if( Class_skills == chronowarper_skills ){ job = 4; }
+	if( Class_skills == chronowarper_skills ){ job = 4; }
 	if( Class_skills == cleric_skills ){ job = 5; }
-	//if( Class_skills == druid_skills ){ job = 6; }
-	//if( Class_skills == earthquaker_skills ){ job = 7; }
-	//if( Class_skills == hydromancer_skills ){ job = 8; }
-	//if( Class_skills == aeromancer_skills ){ job = 9; }
-	//if( Class_skills == medicaster_skills ){ job = 10; }
-	//if( Class_skills == paladin_skills ){ job = 11; }
-	//if( Class_skills == pyromancer_skills ){ job = 12; }
-	//if( Class_skills == ranger_skills ){ job = 13; }
-	//if( Class_skills == shadowblade_skills ){ job = 14; }
-	//if( Class_skills == shadow_shaman_skills ){ job = 15; }
-	//if( Class_skills == venomancer_skills ){ job = 16; }
+	if( Class_skills == druid_skills ){ job = 6; }
+	if( Class_skills == earthquaker_skills ){ job = 7; }
+	if( Class_skills == hydromancer_skills ){ job = 8; }
+	if( Class_skills == aeromancer_skills ){ job = 9; }
+	if( Class_skills == medicaster_skills ){ job = 10; }
+	if( Class_skills == paladin_skills ){ job = 11; }
+	if( Class_skills == pyromancer_skills ){ job = 12; }
+	if( Class_skills == ranger_skills ){ job = 13; }
+	if( Class_skills == shadowblade_skills ){ job = 14; }
+	if( Class_skills == shadow_shaman_skills ){ job = 15; }
+	if( Class_skills == venomancer_skills ){ job = 16; }
 	if( Class_skills == warrior_skills ){ job = 17; }
 	
 	for(let i=0; i < levels.length; i++){
@@ -1031,19 +1031,19 @@ function setJobLines(){
 	if( Class_skills == phantom_stalker_skills ){ name = "phantom_stalker"; }
 	if( Class_skills == barbarian_skills ){ name = "barbarian"; }
 	if( Class_skills == chaotic_knight_skills ){ name = "chaotic_knight"; }
-	//if( Class_skills == chronowarper_skills ){ name = "chronowarper"; }
+	if( Class_skills == chronowarper_skills ){ name = "chronowarper"; }
 	if( Class_skills == cleric_skills ){ name = "cleric"; }
-	//if( Class_skills == druid_skills ){ name = "druid"; }
-	//if( Class_skills == earthquaker_skills ){ name = "earthquaker"; }
-	//if( Class_skills == hydromancer_skills ){ name = "hydromancer"; }
-	//if( Class_skills == aeromancer_skills ){ name = "aeromancer"; }
-	//if( Class_skills == medicaster_skills ){ name = "medicaster"; }
-	//if( Class_skills == paladin_skills ){ name = "paladin"; }
-	//if( Class_skills == pyromancer_skills ){ name = "pyromancer"; }
-	//if( Class_skills == ranger_skills ){ name = "ranger"; }
-	//if( Class_skills == shadowblade_skills ){ name = "shadowblade"; }
-	//if( Class_skills == shadow_shaman_skills ){ name = "shadow_shaman"; }
-	//if( Class_skills == venomancer_skills ){ name = "venomancer"; }
+	if( Class_skills == druid_skills ){ name = "druid"; }
+	if( Class_skills == earthquaker_skills ){ name = "earthquaker"; }
+	if( Class_skills == hydromancer_skills ){ name = "hydromancer"; }
+	if( Class_skills == aeromancer_skills ){ name = "aeromancer"; }
+	if( Class_skills == medicaster_skills ){ name = "medicaster"; }
+	if( Class_skills == paladin_skills ){ name = "paladin"; }
+	if( Class_skills == pyromancer_skills ){ name = "pyromancer"; }
+	if( Class_skills == ranger_skills ){ name = "ranger"; }
+	if( Class_skills == shadowblade_skills ){ name = "shadowblade"; }
+	if( Class_skills == shadow_shaman_skills ){ name = "shadow_shaman"; }
+	if( Class_skills == venomancer_skills ){ name = "venomancer"; }
 	if( Class_skills == warrior_skills ){ name = "warrior"; }
     
     // Set job window background
