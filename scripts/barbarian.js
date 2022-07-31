@@ -63,7 +63,7 @@ var barbarian_skills = [
             "lvlReq": 12,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>45sec</span>, Duration: <span class='info_gray'>21sec</span>",
             "texts": [
                 "",
                 "Teaches Battle Lust: Grants all allied units (including yourself) in <span class='info_blue'>625</span> AoE a buff that causes them to recover a small amount of health with autoattacks.",
@@ -97,7 +97,7 @@ var barbarian_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>3sec</span>",
             "texts": [
                 "",
                 "Teaches Deep Slice: A single target attack that deals physical damage.",
@@ -114,7 +114,7 @@ var barbarian_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Cooldown: <span class='info_gray'>2.5sec</span>",
             "texts": [
                 "",
                 "Deep Slice now causes the target to bleed for <span class='info_blue'>14%</span> of Deep Slice's damage per second for <span class='info_blue'>5s</span>."
@@ -130,7 +130,7 @@ var barbarian_skills = [
             "lvlReq": 4,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>25</span> , Cooldown: <span class='info_gray'>45sec</span>, Duration: <span class='info_gray'>22sec</span>",
             "texts": [
                 "",
                 "Teaches Berserker Rage: A self buff that causes each autoattack you make to grant you a stacking damage bonus. After <span class='info_blue'>8</span> stacks are accumulated, your next autoattack explodes and deals bonus damage to the target.<br>You also move <span class='info_blue'>5%</span> faster while Berserker Rage is active.",
@@ -179,7 +179,7 @@ var barbarian_skills = [
             "maxLevel": 1,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>45sec</span> , Duration: <span class='info_gray'>120sec</span>",
             "texts": [
                 "",
                 "Teaches Warcry: Grants all allied units (including yourself) in <span class='info_blue'>625</span> AoE a buff that increases their attack damage.",
@@ -231,7 +231,7 @@ var barbarian_skills = [
             "lvlReq": 18,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Continuous / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Continuous / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>25</span> , Cooldown: <span class='info_gray'>30sec</span>",
             "texts": [
                 "",
                 "Teaches Bladestorm: Causes you to deal damage every <span class='info_blue'>0.5s</span> to all enemies in <span class='info_blue'>350</span> AoE. Lasts <span class='info_blue'>6</span> seconds.<br>While this effect is active, you cannot use other abilities and your movement speed is reduced by <span class='info_blue'>40%</span>.",
@@ -248,11 +248,11 @@ var barbarian_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Manacost: <span class='info_gray'>30</span> , Cooldown: <span class='info_gray'>27sec</span>",
             "texts": [
                 "",
-                "Bladestorm now inflicts a debuff on hit enemies that causes them to take <span class='info_blue'>5%</span> more damage from all sources.<br>You also take <span class='info_blue'>10%</span> less damage from all sources while Bladestorm is active.",
-                "Bladestorm now inflicts a debuff on hit enemies that causes them to take <span class='info_blue'>10%</span> more damage from all sources.<br>You also take <span class='info_blue'>20%</span> less damage from all sources while Bladestorm is active.",
+                "- Bladestorm now inflicts a debuff on hit enemies that causes them to take <span class='info_blue'>5%</span> more damage from all sources.<br>- You also take <span class='info_blue'>10%</span> less damage from all sources while Bladestorm is active.",
+                "- Bladestorm now inflicts a debuff on hit enemies that causes them to take <span class='info_blue'>10%</span> more damage from all sources.<br>- You also take <span class='info_blue'>20%</span> less damage from all sources while Bladestorm is active.",
             ]
         }
     ],
@@ -321,11 +321,11 @@ var barbarian_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Cleave deals <span class='info_blue'>10%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from 3 to <span class='info_blue'>5</span>.<br>When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
-                "Cleave deals <span class='info_blue'>20%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from 3 to <span class='info_blue'>5</span>.<br>When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
-                "Cleave deals <span class='info_blue'>30%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from 3 to <span class='info_blue'>5</span>.<br>When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
-                "Cleave deals <span class='info_blue'>40%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from 3 to <span class='info_blue'>5</span>.<br>When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
-                "Cleave deals <span class='info_blue'>50%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from 3 to <span class='info_blue'>5</span>.<br>When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
+                "- Cleave deals <span class='info_blue'>10%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from <span class='info_blue'>3</span> to <span class='info_blue'>5</span>.<br>- When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
+                "- Cleave deals <span class='info_blue'>20%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from <span class='info_blue'>3</span> to <span class='info_blue'>5</span>.<br>- When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
+                "- Cleave deals <span class='info_blue'>30%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from <span class='info_blue'>3</span> to <span class='info_blue'>5</span>.<br>- When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
+                "- Cleave deals <span class='info_blue'>40%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from <span class='info_blue'>3</span> to <span class='info_blue'>5</span>.<br>- When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
+                "- Cleave deals <span class='info_blue'>50%</span> more damage both to the primary target and to AoE targets but its mana consumption is increased from <span class='info_blue'>3</span> to <span class='info_blue'>5</span>.<br>- When fully talented, Cleave also stuns the primary target for <span class='info_blue'>3s</span>. Enemies immune to being stunned take <span class='info_blue'>20%</span> more damage instead.",
             ]
         }
     ],[
@@ -361,6 +361,8 @@ var barbarian_skills = [
             "texts": [
                 "",
                 "When Bladestorm expires, deal immense damage to all enemies in <span class='info_blue'>600</span> AoE. Each talent point in this talent increases the damage dealt.<br>All enemies hit by No One Lives will also be stunned for <span class='info_blue'>0.5</span> seconds.",
+                "When Bladestorm expires, deal immense damage to all enemies in <span class='info_blue'>600</span> AoE. Each talent point in this talent increases the damage dealt.<br>All enemies hit by No One Lives will also be stunned for <span class='info_blue'>1.0</span> seconds.",
+                "When Bladestorm expires, deal immense damage to all enemies in <span class='info_blue'>600</span> AoE. Each talent point in this talent increases the damage dealt.<br>All enemies hit by No One Lives will also be stunned for <span class='info_blue'>1.5</span> seconds.",
             ]
         }
     ],[
@@ -465,9 +467,9 @@ var barbarian_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Berserker Rage will explode an additional <span class='info_blue'>1</span> time(s) before consuming its stacks.<br>Apply the following effects when you are below <span class='info_blue'>50%</span> of your maximum Life: <br> - Cleave and Bladestorm deal <span class='info_blue'>30%</span> more damage.",
-                "Berserker Rage will explode an additional <span class='info_blue'>2</span> time(s) before consuming its stacks.<br>Apply the following effects when you are below <span class='info_blue'>65%</span> of your maximum Life:<br> - Cleave and Bladestorm deal <span class='info_blue'>30%</span> more damage.<br> - Deep Slice deals <span class='info_blue'>30%</span> more damage.",
-                "Berserker Rage will explode an additional <span class='info_blue'>3</span> time(s) before consuming its stacks.<br>Apply the following effects when you are below <span class='info_blue'>80%</span> of your maximum Life:<br> - Cleave and Bladestorm deal <span class='info_blue'>30%</span> more damage.<br> - Deep Slice deals <span class='info_blue'>30%</span> more damage.<br> - Berserker Rage's explosion deals <span class='info_blue'>30%</span> more damage.",
+                "- Berserker Rage will explode an additional <span class='info_blue'>1</span> time(s) before consuming its stacks.<br>- Apply the following effects when you are below <span class='info_blue'>50%</span> of your maximum Life:<br> - Cleave and Bladestorm deal <span class='info_blue'>30%</span> more damage.",
+                "- Berserker Rage will explode an additional <span class='info_blue'>2</span> time(s) before consuming its stacks.<br>- Apply the following effects when you are below <span class='info_blue'>65%</span> of your maximum Life:<br> - Cleave and Bladestorm deal <span class='info_blue'>30%</span> more damage.<br> - Deep Slice deals <span class='info_blue'>30%</span> more damage.",
+                "- Berserker Rage will explode an additional <span class='info_blue'>3</span> time(s) before consuming its stacks.<br>- Apply the following effects when you are below <span class='info_blue'>80%</span> of your maximum Life:<br> - Cleave and Bladestorm deal <span class='info_blue'>30%</span> more damage.<br> - Deep Slice deals <span class='info_blue'>30%</span> more damage.<br> - Berserker Rage's explosion deals <span class='info_blue'>30%</span> more damage.",
             ]
         }
     ],[
@@ -503,11 +505,11 @@ var barbarian_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases the 3x damage chance of Rupture from 30% to <span class='info_blue'>38%</span>.<br>When fully talented, the base cooldown of Deep Slice is reduced from 2.5s to <span class='info_blue'>1.5s</span>.",
-                "Increases the 3x damage chance of Rupture from 30% to <span class='info_blue'>46%</span>.<br>When fully talented, the base cooldown of Deep Slice is reduced from 2.5s to <span class='info_blue'>1.5s</span>.",
-                "Increases the 3x damage chance of Rupture from 30% to <span class='info_blue'>54%</span>.<br>When fully talented, the base cooldown of Deep Slice is reduced from 2.5s to <span class='info_blue'>1.5s</span>.",
-                "Increases the 3x damage chance of Rupture from 30% to <span class='info_blue'>62%</span>.<br>When fully talented, the base cooldown of Deep Slice is reduced from 2.5s to <span class='info_blue'>1.5s</span>.",
-                "Increases the 3x damage chance of Rupture from 30% to <span class='info_blue'>70%</span>.<br>When fully talented, the base cooldown of Deep Slice is reduced from 2.5s to <span class='info_blue'>1.5s</span>.",
+                "- Increases the <span class='info_blue'>3x</span> damage chance of Rupture from <span class='info_blue'>30%</span> to <span class='info_blue'>38%</span>.<br>- When fully talented, the base cooldown of Deep Slice is reduced from <span class='info_blue'>2.5s</span> to <span class='info_blue'>1.5s</span>.",
+                "- Increases the <span class='info_blue'>3x</span> damage chance of Rupture from <span class='info_blue'>30%</span> to <span class='info_blue'>46%</span>.<br>- When fully talented, the base cooldown of Deep Slice is reduced from <span class='info_blue'>2.5s</span> to <span class='info_blue'>1.5s</span>.",
+                "- Increases the <span class='info_blue'>3x</span> damage chance of Rupture from <span class='info_blue'>30%</span> to <span class='info_blue'>54%</span>.<br>- When fully talented, the base cooldown of Deep Slice is reduced from <span class='info_blue'>2.5s</span> to <span class='info_blue'>1.5s</span>.",
+                "- Increases the <span class='info_blue'>3x</span> damage chance of Rupture from <span class='info_blue'>30%</span> to <span class='info_blue'>62%</span>.<br>- When fully talented, the base cooldown of Deep Slice is reduced from <span class='info_blue'>2.5s</span> to <span class='info_blue'>1.5s</span>.",
+                "- Increases the <span class='info_blue'>3x</span> damage chance of Rupture from <span class='info_blue'>30%</span> to <span class='info_blue'>70%</span>.<br>- When fully talented, the base cooldown of Deep Slice is reduced from <span class='info_blue'>2.5s</span> to <span class='info_blue'>1.5s</span>.",
             ]
         }
     ],[
@@ -524,9 +526,9 @@ var barbarian_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Apply the following effects:<br> - Bladestorm deals <span class='info_blue'>12%</span> more damage.<br> - Bladestorm's damage taken debuff is increased from 10% to <span class='info_blue'>13%</span>.<br> - Bladestorm's self movement speed reduction is changed from -40% to <span class='info_blue'>-20%</span>.<br> - If <span class='info_blue'>No One Lives</span> is talented, the stun duration of No One Lives will be increased by <span class='info_blue'>0.5s</span>.",
-                "Apply the following effects:<br> - Bladestorm deals <span class='info_blue'>24%</span> more damage.<br> - Bladestorm's damage taken debuff is increased from 10% to <span class='info_blue'>16%</span>.<br> - Bladestorm's self movement speed reduction is changed from -40% to <span class='info_blue'>0%</span>.<br> - If <span class='info_blue'>No One Lives</span> is talented, the stun duration of No One Lives will be increased by <span class='info_blue'>1.0s</span>.",
-                "Apply the following effects:<br> - Bladestorm deals <span class='info_blue'>36%</span> more damage.<br> - Bladestorm's damage taken debuff is increased from 10% to <span class='info_blue'>19%</span>.<br> - Bladestorm's self movement speed reduction is changed from -40% to <span class='info_blue'>+20%</span>.<br> - If <span class='info_blue'>No One Lives</span> is talented, the stun duration of No One Lives will be increased by <span class='info_blue'>1.5s</span>.",
+                "Apply the following effects:<br> - Bladestorm deals <span class='info_blue'>12%</span> more damage.<br> - Bladestorm's damage taken debuff is increased from <span class='info_blue'>10%</span> to <span class='info_blue'>13%</span>.<br> - Bladestorm's self movement speed reduction is changed from <span class='info_blue'>-40%</span> to <span class='info_blue'>-20%</span>.<br> - If <span class='info_blue'>No One Lives</span> is talented, the stun duration of No One Lives will be increased by <span class='info_blue'>0.5s</span>.",
+                "Apply the following effects:<br> - Bladestorm deals <span class='info_blue'>24%</span> more damage.<br> - Bladestorm's damage taken debuff is increased from <span class='info_blue'>10%</span> to <span class='info_blue'>16%</span>.<br> - Bladestorm's self movement speed reduction is changed from <span class='info_blue'>-40%</span> to <span class='info_blue'>0%</span>.<br> - If <span class='info_blue'>No One Lives</span> is talented, the stun duration of No One Lives will be increased by <span class='info_blue'>1.0s</span>.",
+                "Apply the following effects:<br> - Bladestorm deals <span class='info_blue'>36%</span> more damage.<br> - Bladestorm's damage taken debuff is increased from <span class='info_blue'>10%</span> to <span class='info_blue'>19%</span>.<br> - Bladestorm's self movement speed reduction is changed from <span class='info_blue'>-40%</span> to <span class='info_blue'>+20%</span>.<br> - If <span class='info_blue'>No One Lives</span> is talented, the stun duration of No One Lives will be increased by <span class='info_blue'>1.5s</span>.",
             ]
         }
     ]

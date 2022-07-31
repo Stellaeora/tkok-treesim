@@ -9,7 +9,7 @@ var phantom_stalker_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>3sec</span>",
             "texts": [
                 "",
                 "<p><span class='info_gray'>Teaches Gash: A single target attack that deals physical damage.",
@@ -26,7 +26,7 @@ var phantom_stalker_skills = [
             "locked": 1,
             "lockReq": "1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Cooldown: <span class='info_gray'>2.5sec</span>",
             "texts": [
                 "",
                 "Gash now applies a bleed effect to the target for <span class='info_blue'>7%</span> of Gash's base damage per second for <span class='info_blue'>4s</span>.",
@@ -47,7 +47,7 @@ var phantom_stalker_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases hero's threat coefficients. Bladefury will provide more armor and dodge, but lower attack speed. Remorseless Strike will taunt the target. Hail of Blades will generate extra AoE threat.<br>Generates threat when dodging attacks.",
+                "- Increases hero's threat coefficients. Bladefury will provide more armor and dodge, but lower attack speed.<br>- Remorseless Strike will taunt the target.<br>- Hail of Blades will generate extra AoE threat.<br>- Generates threat when dodging attacks.",
             ]
         }
     ],[
@@ -60,7 +60,7 @@ var phantom_stalker_skills = [
             "lvlReq": 12,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>6sec</span>",
             "texts": [
                 "",
                 "Teaches Hail of Blades: A multi target ranged attack that deals physical damage.",
@@ -77,7 +77,7 @@ var phantom_stalker_skills = [
             "locked": 1,
             "lockReq": "0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Cooldown: <span class='info_gray'>5sec</span>",
             "texts": [
                 "",
                 "Deals <span class='info_blue'>11%</span> more damage and has a 30% chance to immobilize hit targets for <span class='info_blue'>1.5s</span>.",
@@ -95,7 +95,7 @@ var phantom_stalker_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>3sec</span>",
             "texts": [
                 "",
                 "Teaches Puncture: A single target attack that deals physical damage.",
@@ -112,7 +112,7 @@ var phantom_stalker_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Cooldown: <span class='info_gray'>2.5sec</span>",
             "texts": [
                 "",
                 "Puncture now crippes the target reducing its movement speed by <span class='info_blue'>35%</span> and attack speed by <span class='info_blue'>25%</span> for <span class='info_blue'>5s</span>."
@@ -128,7 +128,7 @@ var phantom_stalker_skills = [
             "lvlReq": 4,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>20</span> , Cooldown: <span class='info_gray'>10sec</span>",
             "texts": [
                 "",
                 "Teaches Remorseless Strike: A single target attack that deals physical damage. Performs bonus effects and restores mana based on which debuffs the Phantom Stalker has on the target:<br> - <span class='info_blue'>Gash:</span> Increased base damage<br> - <span class='info_blue'>Puncture:</span> Increased base damage<br> - <span class='info_blue'>Shuriken:</span> Spreads Shuriken's poison to nearby enemies",
@@ -174,7 +174,7 @@ var phantom_stalker_skills = [
             "maxLevel": 1,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Projectile</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Projectile</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>6sec</span>",
             "texts": [
                 "",
                 "Teaches Shuriken: A single target ranged attack that deals physical damage",
@@ -191,7 +191,7 @@ var phantom_stalker_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Cooldown: <span class='info_gray'>5sec</span>",
             "texts": [
                 "",
                 "Shurikens are now coated in poison which deals <span class='info_blue'>10%</span> of Shuriken's base damage to the target per second for <span class='info_blue'>5s</span>.",
@@ -211,9 +211,9 @@ var phantom_stalker_skills = [
             "info": "p",
             "texts": [
                 "",
-                "After Shuriken hits its target, if the Phantom Stalker is less than 600 distance from the target, Phantom Stalker dashes to her target.<br>Gash, Puncture, and Remorseless Strike deal <span class='info_blue'>10%</span> increased damage when used within <span class='info_blue'>1</span> second(s) after triggering Dash.",
-                "After Shuriken hits its target, if the Phantom Stalker is less than 600 distance from the target, Phantom Stalker dashes to her target.<br>Gash, Puncture, and Remorseless Strike deal <span class='info_blue'>20%</span> increased damage when used within <span class='info_blue'>1.5</span> second(s) after triggering Dash.",
-                "After Shuriken hits its target, if the Phantom Stalker is less than 600 distance from the target, Phantom Stalker dashes to her target.<br>Gash, Puncture, and Remorseless Strike deal <span class='info_blue'>30%</span> increased damage when used within <span class='info_blue'>2</span> second(s) after triggering Dash.",
+                "- After Shuriken hits its target, if the Phantom Stalker is less than 600 distance from the target, Phantom Stalker dashes to her target.<br>- Gash, Puncture, and Remorseless Strike deal <span class='info_blue'>10%</span> increased damage when used within <span class='info_blue'>1</span> second(s) after triggering Dash.",
+                "- After Shuriken hits its target, if the Phantom Stalker is less than 600 distance from the target, Phantom Stalker dashes to her target.<br>- Gash, Puncture, and Remorseless Strike deal <span class='info_blue'>20%</span> increased damage when used within <span class='info_blue'>1.5</span> second(s) after triggering Dash.",
+                "- After Shuriken hits its target, if the Phantom Stalker is less than 600 distance from the target, Phantom Stalker dashes to her target.<br>- Gash, Puncture, and Remorseless Strike deal <span class='info_blue'>30%</span> increased damage when used within <span class='info_blue'>2</span> second(s) after triggering Dash.",
             ]
         }
     ],[
@@ -226,7 +226,7 @@ var phantom_stalker_skills = [
             "lvlReq": 18,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>25</span> , Cooldown: <span class='info_gray'>40sec</span> , Duration: <span class='info_gray'>20sec</span>",
             "texts": [
                 "",
                 "Teaches Bladefury: A self buff that increases attack speed by <span class='info_blue'>50%</span> and grants <span class='info_blue'>30</span> armor for the duration.",
@@ -335,11 +335,11 @@ var phantom_stalker_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increase Gash bleed time by <span class='info_blue'>0.6</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.05</span> x Attack Power; this additional damage is pure damage.<br>When fully talented, Gash bleed can be stacked up to 3 times on a single target.",
-                "Increase Gash bleed time by <span class='info_blue'>1.2</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.10</span> x Attack Power; this additional damage is pure damage.<br>When fully talented, Gash bleed can be stacked up to 3 times on a single target.",
-                "Increase Gash bleed time by <span class='info_blue'>1.8</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.15</span> x Attack Power; this additional damage is pure damage.<br>When fully talented, Gash bleed can be stacked up to 3 times on a single target.",
-                "Increase Gash bleed time by <span class='info_blue'>2.4</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.20</span> x Attack Power; this additional damage is pure damage.<br>When fully talented, Gash bleed can be stacked up to 3 times on a single target.",
-                "Increase Gash bleed time by <span class='info_blue'>3.0</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.25</span> x Attack Power; this additional damage is pure damage.<br>When fully talented, Gash bleed can be stacked up to 3 times on a single target.",
+                "- Increase Gash bleed time by <span class='info_blue'>0.6</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.05</span> x Attack Power; this additional damage is pure damage.<br>- When fully talented, Gash bleed can be stacked up to <span class='info_blue'>3</span> times on a single target.",
+                "- Increase Gash bleed time by <span class='info_blue'>1.2</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.10</span> x Attack Power; this additional damage is pure damage.<br>- When fully talented, Gash bleed can be stacked up to <span class='info_blue'>3</span> times on a single target.",
+                "- Increase Gash bleed time by <span class='info_blue'>1.8</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.15</span> x Attack Power; this additional damage is pure damage.<br>- When fully talented, Gash bleed can be stacked up to <span class='info_blue'>3</span> times on a single target.",
+                "- Increase Gash bleed time by <span class='info_blue'>2.4</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.20</span> x Attack Power; this additional damage is pure damage.<br>- When fully talented, Gash bleed can be stacked up to <span class='info_blue'>3</span> times on a single target.",
+                "- Increase Gash bleed time by <span class='info_blue'>3.0</span> seconds. Add additional bleed damage equal to <span class='info_blue'>0.25</span> x Attack Power; this additional damage is pure damage.<br>- When fully talented, Gash bleed can be stacked up to <span class='info_blue'>3</span> times on a single target.",
             ]
         }
     ],
@@ -503,8 +503,8 @@ var phantom_stalker_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Casting Bladefury increases attack damage by 70 + 2 x level for 5 seconds.",
-                "Casting Bladefury increases attack damage by 70 + 2 x level and grants 100% dodge for 5 seconds.",
+                "- Casting Bladefury increases attack damage by <span class='info_blue'>70</span> + <span class='info_blue'>2</span> x level for <span class='info_blue'>5</span> seconds.",
+                "- Casting Bladefury increases attack damage by <span class='info_blue'>70</span> + <span class='info_blue'>2</span> x level for <span class='info_blue'>5</span> seconds.<br>- <span class='info_blue'>Second point</span> Also grants <span class='info_blue'>100%</span> dodge for <span class='info_blue'>5</span> seconds.",
             ]
         }
     ],[
@@ -521,11 +521,11 @@ var phantom_stalker_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Casting Puncture heals the hero for <span class='info_blue'>4%</span> of max Life. Puncture reduces the target's Max Life by 5%, stacking up to <span class='info_blue'>1</span> time(s).<br>When fully talented, Puncture has an 11% chance to proc Deathstrike ignoring cooldown.",
-                "Casting Puncture heals the hero for <span class='info_blue'>8%</span> of max Life. Puncture reduces the target's Max Life by 5%, stacking up to <span class='info_blue'>2</span> time(s).<br>When fully talented, Puncture has an 11% chance to proc Deathstrike ignoring cooldown.",
-                "Casting Puncture heals the hero for <span class='info_blue'>12%</span> of max Life. Puncture reduces the target's Max Life by 5%, stacking up to <span class='info_blue'>3</span> time(s).<br>When fully talented, Puncture has an 11% chance to proc Deathstrike ignoring cooldown.",
-                "Casting Puncture heals the hero for <span class='info_blue'>16%</span> of max Life. Puncture reduces the target's Max Life by 5%, stacking up to <span class='info_blue'>4</span> time(s).<br>When fully talented, Puncture has an 11% chance to proc Deathstrike ignoring cooldown.",
-                "Casting Puncture heals the hero for <span class='info_blue'>20%</span> of max Life. Puncture reduces the target's Max Life by 5%, stacking up to <span class='info_blue'>5</span> time(s).<br>When fully talented, Puncture has an 11% chance to proc Deathstrike ignoring cooldown.",
+                "- Casting Puncture heals the hero for <span class='info_blue'>4%</span> of max Life.<br>- Puncture reduces the target's Max Life by <span class='info_blue'>5%</span>, stacking up to <span class='info_blue'>1</span> time(s).<br>- When fully talented, Puncture has an <span class='info_blue'>11%</span> chance to proc Deathstrike ignoring cooldown.",
+                "- Casting Puncture heals the hero for <span class='info_blue'>8%</span> of max Life.<br>- Puncture reduces the target's Max Life by <span class='info_blue'>5%</span>, stacking up to <span class='info_blue'>2</span> time(s).<br>- When fully talented, Puncture has an <span class='info_blue'>11%</span> chance to proc Deathstrike ignoring cooldown.",
+                "- Casting Puncture heals the hero for <span class='info_blue'>12%</span> of max Life.<br>- Puncture reduces the target's Max Life by <span class='info_blue'>5%</span>, stacking up to <span class='info_blue'>3</span> time(s).<br>- When fully talented, Puncture has an <span class='info_blue'>11%</span> chance to proc Deathstrike ignoring cooldown.",
+                "- Casting Puncture heals the hero for <span class='info_blue'>16%</span> of max Life.<br>- Puncture reduces the target's Max Life by <span class='info_blue'>5%</span>, stacking up to <span class='info_blue'>4</span> time(s).<br>- When fully talented, Puncture has an <span class='info_blue'>11%</span> chance to proc Deathstrike ignoring cooldown.",
+                "- Casting Puncture heals the hero for <span class='info_blue'>20%</span> of max Life.<br>- Puncture reduces the target's Max Life by <span class='info_blue'>5%</span>, stacking up to <span class='info_blue'>5</span> time(s).<br>- When fully talented, Puncture has an <span class='info_blue'>11%</span> chance to proc Deathstrike ignoring cooldown.",
             ]
         }
     ]

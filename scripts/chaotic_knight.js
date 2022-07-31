@@ -9,10 +9,10 @@ var chaotic_knight_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>4sec</span> , Duration: <span class='info_gray'>17.40sec</span>",
             "texts": [
                 "",
-                "<p><span class='info_gray'>Teaches Armor Break: Lowers the target's armor for a short duration.",
+                "<p><span class='info_gray'>Teaches Armor Break: Lowers the target's armor.",
             ]
         }
     ],[
@@ -59,7 +59,7 @@ var chaotic_knight_skills = [
             "lvlReq": 12,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Target</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Spell Power, Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Target</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Spell Power, Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>25sec</span> , Duration: <span class='info_gray'>32sec</span>",
             "texts": [
                 "",
                 "Teaches Chaotic Curse: Grants the target a buff that causes any attackers to suffer spell damage. Only triggers in response to physical attacks.",
@@ -79,9 +79,9 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "When Chaotic Curse activates, the attacking enemy will be stunned for 1.5s at a <span class='info_blue'>22%</span> rate.<br>If the enemy is immune to stunning, a powerful counterattack triggers instead, dealing increased damage. Counterattack effect can only occur once every 2 seconds.<br>Higher levels of this talent will increase the counterattack's damage.",
-                "When Chaotic Curse activates, the attacking enemy will be stunned for 1.5s at a <span class='info_blue'>28%</span> rate.<br>If the enemy is immune to stunning, a powerful counterattack triggers instead, dealing increased damage. Counterattack effect can only occur once every 2 seconds.<br>Higher levels of this talent will increase the counterattack's damage.",
-                "When Chaotic Curse activates, the attacking enemy will be stunned for 1.5s at a <span class='info_blue'>34%</span> rate.<br>If the enemy is immune to stunning, a powerful counterattack triggers instead, dealing increased damage. Counterattack effect can only occur once every 2 seconds.<br>Higher levels of this talent will increase the counterattack's damage.",
+                "- When Chaotic Curse activates, the attacking enemy will be stunned for <span class='info_blue'>1.5s</span> at a <span class='info_blue'>22%</span> rate.<br>- If the enemy is immune to stunning, a powerful counterattack triggers instead, dealing increased damage. Counterattack effect can only occur once every <span class='info_blue'>2</span> seconds.<br>- Higher levels of this talent will increase the counterattack's damage.",
+                "- When Chaotic Curse activates, the attacking enemy will be stunned for <span class='info_blue'>1.5s</span> at a <span class='info_blue'>28%</span> rate.<br>- If the enemy is immune to stunning, a powerful counterattack triggers instead, dealing increased damage. Counterattack effect can only occur once every <span class='info_blue'>2</span> seconds.<br>- Higher levels of this talent will increase the counterattack's damage.",
+                "- When Chaotic Curse activates, the attacking enemy will be stunned for <span class='info_blue'>1.5s</span> at a <span class='info_blue'>34%</span> rate.<br>- If the enemy is immune to stunning, a powerful counterattack triggers instead, dealing increased damage. Counterattack effect can only occur once every <span class='info_blue'>2</span> seconds.<br>- Higher levels of this talent will increase the counterattack's damage.",
             ]
         }
     ],
@@ -95,7 +95,7 @@ var chaotic_knight_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Spell Power, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Melee / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Spell Power, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>3sec</span>",
             "texts": [
                 "",
                 "Teaches Mindblade: Deals magic damage to a single target.",
@@ -115,8 +115,8 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Mindblade now deals <span class='info_blue'>30%</span> of its damage in a small AoE around the primary target.<br>Mindblade's damage is increased by <span class='info_blue'>15%</span> against targets under Armor Break.",
-                "Mindblade now deals <span class='info_blue'>60%</span> of its damage in a small AoE around the primary target.<br>Mindblade's damage is increased by <span class='info_blue'>30%</span> against targets under Armor Break.",
+                "- Mindblade now deals <span class='info_blue'>30%</span> of its damage in a small AoE around the primary target.<br>- Mindblade's damage is increased by <span class='info_blue'>15%</span> against targets under Armor Break.",
+                "- Mindblade now deals <span class='info_blue'>60%</span> of its damage in a small AoE around the primary target.<br>- Mindblade's damage is increased by <span class='info_blue'>30%</span> against targets under Armor Break.",
             ]
         }
     ],[
@@ -129,10 +129,10 @@ var chaotic_knight_skills = [
             "lvlReq": 4,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Hero Level</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>30sec</span> , Duration: <span class='info_gray'>40sec</span>",
             "texts": [
                 "",
-                "Arcane Mastery: Teaches Inspire: A party buff that increases mana regeneration.<br>Chaotic Stance: Teaches Hasten: A party buff that increases movement speed.",
+                "- Arcane Mastery: Teaches Inspire: A party buff that increases mana regeneration.<br>- Chaotic Stance: Teaches Hasten: A party buff that increases movement speed.",
             ]
         }
     ],[
@@ -149,7 +149,7 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Arcane Mastery: Inspire now adds bonus Energy based on hero level.<br>Chaotic Stance: Hasten now adds bonus Agility based on hero level.",
+                "- Arcane Mastery: Inspire now adds bonus Energy based on hero level.<br>- Chaotic Stance: Hasten now adds bonus Agility based on hero level.",
             ]
         }
     ],[
@@ -181,10 +181,10 @@ var chaotic_knight_skills = [
             "maxLevel": 1,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Spell Power, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Attack Critical, Spell Power, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>5sec</span>",
             "texts": [
                 "",
-                "Teaches Cleanse. Apply the following effect on cast:<br>Arcane Mastery: Deals magic damage to a single target.<br>Chaotic Stance: Heals the target ally and deals magic damage to all enemies near them.",
+                "- Teaches Cleanse. Apply the following effect on cast:<br>Arcane Mastery: Deals magic damage to a single target.<br>- Chaotic Stance: Heals the target ally and deals magic damage to all enemies near them.",
             ]
         }
     ],[
@@ -201,9 +201,9 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Arcane Mastery: Cleanse can now be used on an ally, dispelling a random debuff and granting them a <span class='info_blue'>3s</span> buff that adds <span class='info_blue'>3%</span> Spell Crit Chance and <span class='info_blue'>33%</span> increased healing effectiveness.<br>Arcane Mastery: Cleanse, when used on an enemy, will instead inflict damage over time and dispel a random positive buff.<br>Chaotic Stance: All enemies hit by Cleanse will suffer a <span class='info_blue'>10s</span> debuff that reduces their Attack Speed by <span class='info_blue'>20%</span>.",
-                "Arcane Mastery: Cleanse can now be used on an ally, dispelling a random debuff and granting them a <span class='info_blue'>3s</span> buff that adds <span class='info_blue'>6%</span> Spell Crit Chance and <span class='info_blue'>66%</span> increased healing effectiveness.<br>Arcane Mastery: Cleanse, when used on an enemy, will instead inflict damage over time and dispel a random positive buff.<br>Chaotic Stance: All enemies hit by Cleanse will suffer a <span class='info_blue'>10s</span> debuff that reduces their Attack Speed by <span class='info_blue'>25%</span>.",
-                "Arcane Mastery: Cleanse can now be used on an ally, dispelling a random debuff and granting them a <span class='info_blue'>3s</span> buff that adds <span class='info_blue'>3%</span> Spell Crit Chance and <span class='info_blue'>100%</span> increased healing effectiveness.<br>Arcane Mastery: Cleanse, when used on an enemy, will instead inflict damage over time and dispel a random positive buff.<br>Chaotic Stance: All enemies hit by Cleanse will suffer a <span class='info_blue'>10s</span> debuff that reduces their Attack Speed by <span class='info_blue'>30%</span>.",
+                "- Arcane Mastery: Cleanse can now be used on an ally, dispelling a random debuff and granting them a <span class='info_blue'>3s</span> buff that adds <span class='info_blue'>3%</span> Spell Crit Chance and <span class='info_blue'>33%</span> increased healing effectiveness.<br>- Arcane Mastery: Cleanse, when used on an enemy, will instead inflict damage over time and dispel a random positive buff.<br>- haotic Stance: All enemies hit by Cleanse will suffer a <span class='info_blue'>10s</span> debuff that reduces their Attack Speed by <span class='info_blue'>20%</span>.",
+                "- Arcane Mastery: Cleanse can now be used on an ally, dispelling a random debuff and granting them a <span class='info_blue'>3s</span> buff that adds <span class='info_blue'>6%</span> Spell Crit Chance and <span class='info_blue'>66%</span> increased healing effectiveness.<br>- Arcane Mastery: Cleanse, when used on an enemy, will instead inflict damage over time and dispel a random positive buff.<br>- Chaotic Stance: All enemies hit by Cleanse will suffer a <span class='info_blue'>10s</span> debuff that reduces their Attack Speed by <span class='info_blue'>25%</span>.",
+                "- Arcane Mastery: Cleanse can now be used on an ally, dispelling a random debuff and granting them a <span class='info_blue'>3s</span> buff that adds <span class='info_blue'>3%</span> Spell Crit Chance and <span class='info_blue'>100%</span> increased healing effectiveness.<br>- Arcane Mastery: Cleanse, when used on an enemy, will instead inflict damage over time and dispel a random positive buff.<br>- Chaotic Stance: All enemies hit by Cleanse will suffer a <span class='info_blue'>10s</span> debuff that reduces their Attack Speed by <span class='info_blue'>30%</span>.",
             ]
         }
     ],[
@@ -232,10 +232,10 @@ var chaotic_knight_skills = [
             "lvlReq": 18,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Instantaneous (Grasp) or Projectile (Orb)</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Spell Power, Attack Critical, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Instantaneous (Grasp) or Projectile (Orb)</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Attack Power, Spell Power, Attack Critical, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>20</span> , Cooldown: <span class='info_gray'>20sec</span>",
             "texts": [
                 "",
-                "Teaches Chaotic Grasp (Chaotic Stance) / Chaotic Orb (Arcane Mastery). Apply the following effect on cast:<br>Arcane Mastery: Shoots an orb of dark energy in the target direction that inflicts heavy damage and inflicts a powerful damage over time effect.<br>Chaotic Stance: Drags the target unit towards the Chaotic Knight and taunts them. Bosses cannot be dragged, but will still be taunted.",
+                "- Teaches Chaotic Grasp (Chaotic Stance) / Chaotic Orb (Arcane Mastery). Apply the following effect on cast:<br>- Arcane Mastery: Shoots an orb of dark energy in the target direction that inflicts heavy damage and inflicts a powerful damage over time effect.<br>- Chaotic Stance: Drags the target unit towards the Chaotic Knight and taunts them. Bosses cannot be dragged, but will still be taunted.",
             ]
         }
     ],[
@@ -252,7 +252,7 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Arcane Mastery: Chaotic Orb will now release smaller bolts of lightning on impact, damaging enemies in <span class='info_blue'>350</span> AoE around the target.<br>Chaotic Stance: Chaotic Grasp now deals damage to the target. This damage is applied after the taunt effect.",
+                "- Arcane Mastery: Chaotic Orb will now release smaller bolts of lightning on impact, damaging enemies in <span class='info_blue'>350</span> AoE around the target.<br>- Chaotic Stance: Chaotic Grasp now deals damage to the target. This damage is applied after the taunt effect.",
             ]
         }
     ],
@@ -288,8 +288,8 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases Mindblade's damage by <span class='info_blue'>10%</span>.<br>Increases Mindblade's damage bonus against Armor Break afflicted targets by a further <span class='info_blue'>10%</span>.",
-                "Increases Mindblade's damage by <span class='info_blue'>20%</span>.<br>Increases Mindblade's damage bonus against Armor Break afflicted targets by a further <span class='info_blue'>20%</span>.",
+                "- Increases Mindblade's damage by <span class='info_blue'>10%</span>.<br>- Increases Mindblade's damage bonus against Armor Break afflicted targets by a further <span class='info_blue'>10%</span>.",
+                "- Increases Mindblade's damage by <span class='info_blue'>20%</span>.<br>- Increases Mindblade's damage bonus against Armor Break afflicted targets by a further <span class='info_blue'>20%</span>.",
             ]
         }
     ],[
@@ -306,11 +306,11 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
-                "Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
-                "Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
-                "Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
-                "Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
+                "- Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>- When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
+                "- Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>- When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
+                "- Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>- When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
+                "- Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>- When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
+                "- Mindblade inflicts a debuff on the primary target that reduces the damage they deal for a short time.<br>- When fully talented, this effect becomes AoE, and Mindblade's threat generation is increased.",
             ]
         }
     ],[
@@ -383,9 +383,9 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Cleanse, when used on an ally, grants them a 10s shield that reduces spell damage. Shield can absotb damage up to <span class='info_blue'>1</span> time and can absorb up to <span class='info_blue'>0.8</span> x Hybrid Power damage. This effect has a cooldown of 20 seconds.",
-                "Cleanse, when used on an ally, grants them a 10s shield that reduces spell damage. Shield can absotb damage up to <span class='info_blue'>2</span> times and can absorb up to <span class='info_blue'>1.6</span> x Hybrid Power damage each time. This effect has a cooldown of 20 seconds.",
-                "Cleanse, when used on an ally, grants them a 10s shield that reduces spell damage. Shield can absotb damage up to <span class='info_blue'>3</span> times and can absorb up to <span class='info_blue'>2.4</span> x Hybrid Power damage each time. This effect has a cooldown of 20 seconds.",
+                "- Cleanse, when used on an ally, grants them a <span class='info_blue'>10s</span> shield that reduces spell damage.<br>- Shield can absotb damage up to <span class='info_blue'>1</span> time and can absorb up to <span class='info_blue'>0.8</span> x Hybrid Power damage.<br>- This effect has a cooldown of <span class='info_blue'>20s</span>.",
+                "- Cleanse, when used on an ally, grants them a <span class='info_blue'>10s</span> shield that reduces spell damage.<br>- Shield can absotb damage up to <span class='info_blue'>2</span> times and can absorb up to <span class='info_blue'>1.6</span> x Hybrid Power damage each time.<br>- This effect has a cooldown of <span class='info_blue'>20s</span>.",
+                "- Cleanse, when used on an ally, grants them a <span class='info_blue'>10s</span> shield that reduces spell damage.<br>- Shield can absotb damage up to <span class='info_blue'>3</span> times and can absorb up to <span class='info_blue'>2.4</span> x Hybrid Power damage each time.<br>- This effect has a cooldown of <span class='info_blue'>20s</span>.",
             ]
         }
     ],[
@@ -402,7 +402,7 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Mindblade has a <span class='info_blue'>50%</span> chance to stun the main target and a <span class='info_blue'>20%</span> chance to stun AoE targets for <span class='info_blue'>2s</span>. Enemies that cannot be stunned take <span class='info_blue'>20%</span> more damage instead.",
+                "- Mindblade has a <span class='info_blue'>50%</span> chance to stun the main target and a <span class='info_blue'>20%</span> chance to stun AoE targets for <span class='info_blue'>2s</span>.<br>- Enemies that cannot be stunned take <span class='info_blue'>20%</span> more damage instead.",
             ]
         }
     ],[
@@ -419,9 +419,9 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Reduce all damage taken by 50%, to a limit of <span class='info_blue'>0.013</span> x max Life damage.<br>Armor Break is now an AoE effect.<br>Arcane Mastery: When autoattacking, automatically triggers Chaotic Orb with an independent <span class='info_blue'>16s</span> inner cooldown.",
-                "Reduce all damage taken by 50%, to a limit of <span class='info_blue'>0.026</span> x max Life damage.<br>Armor Break is now an AoE effect.<br>Chaotic Curse adds Life instead of draining it.<br>Arcane Mastery: When autoattacking, automatically triggers Chaotic Orb with an independent <span class='info_blue'>13s</span> inner cooldown.",
-                "Reduce all damage taken by 50%, to a limit of <span class='info_blue'>0.039</span> x max Life damage.<br>Armor Break is now an AoE effect.<br>Chaotic Curse adds Life instead of draining it.<br>Arcane Mastery: When autoattacking, automatically triggers Chaotic Orb with an independent <span class='info_blue'>10s</span> inner cooldown.<br>Chaotic Stance: Reduces the damage taken from blocked attacks by <span class='info_blue'>30%</span>.",
+                "- Reduce all damage taken by 50%, to a limit of <span class='info_blue'>0.013</span> x max Life damage.<br>- Armor Break is now an AoE effect.<br>- Arcane Mastery: When autoattacking, automatically triggers Chaotic Orb with an independent <span class='info_blue'>16s</span> inner cooldown.",
+                "- Reduce all damage taken by 50%, to a limit of <span class='info_blue'>0.026</span> x max Life damage.<br>- Armor Break is now an AoE effect.<br>- Chaotic Curse adds Life instead of draining it.<br>- Arcane Mastery: When autoattacking, automatically triggers Chaotic Orb with an independent <span class='info_blue'>13s</span> inner cooldown.",
+                "- Reduce all damage taken by 50%, to a limit of <span class='info_blue'>0.039</span> x max Life damage.<br>- Armor Break is now an AoE effect.<br>- Chaotic Curse adds Life instead of draining it.<br>- Arcane Mastery: When autoattacking, automatically triggers Chaotic Orb with an independent <span class='info_blue'>10s</span> inner cooldown.<br>- Chaotic Stance: Reduces the damage taken from blocked attacks by <span class='info_blue'>30%</span>.",
             ]
         }
     ],[
@@ -438,11 +438,11 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increase Chaotic Insight duration by <span class='info_blue'>0.6s</span>.<br>Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>9%</span>.<br>Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>12%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
-                "Increase Chaotic Insight duration by <span class='info_blue'>1.2s</span>.<br>Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>18%</span>.<br>Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>24%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
-                "Increase Chaotic Insight duration by <span class='info_blue'>1.8s</span>.<br>Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>27%</span>.<br>Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>36%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
-                "Increase Chaotic Insight duration by <span class='info_blue'>2.4s</span>.<br>Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>36%</span>.<br>Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>48%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
-                "Increase Chaotic Insight duration by <span class='info_blue'>3.0s</span>.<br>Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>45%</span>.<br>Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>60%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
+                "- Increase Chaotic Insight duration by <span class='info_blue'>0.6s</span>.<br>- Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>9%</span>.<br>- Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>12%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
+                "- Increase Chaotic Insight duration by <span class='info_blue'>1.2s</span>.<br>- Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>18%</span>.<br>- Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>24%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
+                "- Increase Chaotic Insight duration by <span class='info_blue'>1.8s</span>.<br>- Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>27%</span>.<br>- Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>36%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
+                "- Increase Chaotic Insight duration by <span class='info_blue'>2.4s</span>.<br>- Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>36%</span>.<br>- Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>48%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
+                "- Increase Chaotic Insight duration by <span class='info_blue'>3.0s</span>.<br>- Arcane Mastery: Increase Chaotic Orb damage by <span class='info_blue'>45%</span>.<br>- Chaotic Stance: Increase Chaotic Grasp damage by <span class='info_blue'>60%</span>.<br>Apply the following effects when fully talented:<br> - Arcane Mastery: Reduce the inner cooldown of the autoattack Chaotic Orb proc by <span class='info_blue'>3s</span>.<br> - Chaotic Stance: Chaotic Grasp now heals you for <span class='info_blue'>100%</span> of the damage dealt.",
             ]
         }
     ],
@@ -477,8 +477,8 @@ var chaotic_knight_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases your Block Chance by <span class='info_blue'>4%</span>.<br>The damage you take from blocked attacks is also reduced from 62% to <span class='info_blue'>56%</span>.",
-                "Increases your Block Chance by <span class='info_blue'>8%</span>.<br>The damage you take from blocked attacks is also reduced from 62% to <span class='info_blue'>50%</span>.",
+                "Increases your Block Chance by <span class='info_blue'>4%</span>.<br>The damage you take from blocked attacks is also reduced from <span class='info_blue'>62%</span> to <span class='info_blue'>56%</span>.",
+                "Increases your Block Chance by <span class='info_blue'>8%</span>.<br>The damage you take from blocked attacks is also reduced from <span class='info_blue'>62%</span> to <span class='info_blue'>50%</span>.",
             ]
         }
     ],[

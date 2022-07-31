@@ -9,7 +9,7 @@ var arcanist_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Projectile</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Projectile</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>10</span> , Cooldown: <span class='info_gray'>1.5sec</span>",
             "texts": [
                 "",
                 "Teaches Arcanic Missile: A single target magic attack that deals magic damage.",
@@ -61,10 +61,10 @@ var arcanist_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Area Continuous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Area Continuous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>30</span> , Cooldown: <span class='info_gray'>20sec</span> , Duration: <span class='info_gray'>6sec</span>",
             "texts": [
                 "",
-                "Teaches Arcanic Disruption: Places an orb that deals magic damage to all enemies in 425 AoE around it every second for 6 seconds.",
+                "Teaches Arcanic Disruption: Places an orb that deals magic damage to all enemies in 425 AoE around it every second.",
             ]
         }
     ],[
@@ -78,7 +78,7 @@ var arcanist_skills = [
             "locked": 1,
             "lockReq": "0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Manacost: <span class='info_gray'>35</span>",
             "texts": [
                 "",
                 "Targets hit by your Arcanic Disruption will have their attack and movement speed slowed by <span class='info_blue'>25%</span> for <span class='info_blue'>4s</span>.",
@@ -95,7 +95,7 @@ var arcanist_skills = [
             "lvlReq": 0,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Area Caster</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>15</span> , Cooldown: <span class='info_gray'>3sec</span>",
             "texts": [
                 "",
                 "Teaches Arcanic Explosion: Deals magic damage to all enemies in <span class='info_blue'>440</span> AoE around the caster.",
@@ -111,7 +111,7 @@ var arcanist_skills = [
             "lvlReq": 4,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Instantaneous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>20</span> , Cooldown: <span class='info_gray'>8sec</span>",
             "texts": [
                 "",
                 "Teaches Arcanic Blast: A powerful single target attack that deals magic damage.",
@@ -172,7 +172,7 @@ var arcanist_skills = [
             "maxLevel": 1,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Continuous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Ranged / Target / Continuous</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Spell Power, Spell Critical</span></p><span class='info_blue'>Manacost: <span class='info_gray'>20</span> , Cooldown: <span class='info_gray'>7sec</span>, Duration: <span class='info_gray'>6.46sec</span>",
             "texts": [
                 "",
                 "Teaches Drain Spirit: A channeled single target attack that deals magic damage over time.",
@@ -189,7 +189,7 @@ var arcanist_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_blue'>Manacost: <span class='info_gray'>30</span>",
             "texts": [
                 "",
                 "Targets hit by Drain Spirit will now lose mana. Your hero will gain some of the drained mana and life.",
@@ -224,10 +224,10 @@ var arcanist_skills = [
             "lvlReq": 16,
             "locked": 0,
             "requirement": "",
-            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Nothing</span></p>",
+            "info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Buff / Self</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> Nothing</span></p><span class='info_blue'>Manacost: <span class='info_gray'>20</span> , Cooldown: <span class='info_gray'>16.7sec</span>, Duration: <span class='info_gray'>12sec</span>",
             "texts": [
                 "",
-                "Teaches Unstable Power: A self buff that increases all magic damage dealt by <span class='info_blue'>15%</span> for <span class='info_blue'>12</span> seconds",
+                "Teaches Unstable Power: A self buff that increases all magic damage dealt by <span class='info_blue'>15%</span>.",
             ]
         }
     ],[
@@ -315,11 +315,11 @@ var arcanist_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases Divination Mark duration by <span class='info_blue'>1</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.2x</span>.<br>When fully talented, Divination Mark will become an AoE debuff.",
-                "Increases Divination Mark duration by <span class='info_blue'>2</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.4x</span>.<br>When fully talented, Divination Mark will become an AoE debuff.",
-                "Increases Divination Mark duration by <span class='info_blue'>3</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.6x</span>.<br>When fully talented, Divination Mark will become an AoE debuff.",
-                "Increases Divination Mark duration by <span class='info_blue'>4</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.8x</span>.<br>When fully talented, Divination Mark will become an AoE debuff.",
-                "Increases Divination Mark duration by <span class='info_blue'>5</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>2.0x</span>.<br>When fully talented, Divination Mark will become an AoE debuff.",
+                "- Increases Divination Mark duration by <span class='info_blue'>1</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.2x</span>.<br>- When fully talented, Divination Mark will become an AoE debuff.",
+                "- Increases Divination Mark duration by <span class='info_blue'>2</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.4x</span>.<br>- When fully talented, Divination Mark will become an AoE debuff.",
+                "- Increases Divination Mark duration by <span class='info_blue'>3</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.6x</span>.<br>- When fully talented, Divination Mark will become an AoE debuff.",
+                "- Increases Divination Mark duration by <span class='info_blue'>4</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>1.8x</span>.<br>- When fully talented, Divination Mark will become an AoE debuff.",
+                "- Increases Divination Mark duration by <span class='info_blue'>5</span> seconds. Divination Mark now affects Arcanic Missile as well as Arcanic Blast, with minimum damage <span class='info_blue'>1.0x</span> and maximum damage <span class='info_blue'>2.0x</span>.<br>- When fully talented, Divination Mark will become an AoE debuff.",
             ]
         }
     ],[
@@ -336,8 +336,8 @@ var arcanist_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Arcanic Disruption will dispel all positive buffs except auras on attacked targets and slow their movespeed for 5s.<br>If only a single boss enemy is being hit by Arcanic Disruption, then casting Arcanic Blast will cause Arcanic Disruption to explode, dealing AoE damage with <span class='info_blue'>20%</span> increased damage to the target.",
-                "Arcanic Disruption will dispel all positive buffs except auras on attacked targets and slow their movespeed for 5s.<br>If only a single boss enemy is being hit by Arcanic Disruption, then casting Arcanic Blast will cause Arcanic Disruption to explode, dealing AoE damage with <span class='info_blue'>40%</span> increased damage to the target.",
+                "- Arcanic Disruption will dispel all positive buffs except auras on attacked targets and slow their movespeed for <span class='info_blue'>5s</span>.<br>- If only a single boss enemy is being hit by Arcanic Disruption, then casting Arcanic Blast will cause Arcanic Disruption to explode, dealing AoE damage with <span class='info_blue'>20%</span> increased damage to the target.",
+                "- Arcanic Disruption will dispel all positive buffs except auras on attacked targets and slow their movespeed for <span class='info_blue'>5s</span>.<br>- If only a single boss enemy is being hit by Arcanic Disruption, then casting Arcanic Blast will cause Arcanic Disruption to explode, dealing AoE damage with <span class='info_blue'>40%</span> increased damage to the target.",
             ]
         }
     ],
@@ -369,8 +369,8 @@ var arcanist_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Increases Arcanic Explosion's AoE from 440 to <span class='info_blue'>570</span>.",
-                "Increases Arcanic Explosion's AoE from 440 to <span class='info_blue'>700</span>.",
+                "Increases Arcanic Explosion's AoE from <span class='info_blue'>440</span> to <span class='info_blue'>570</span>.",
+                "Increases Arcanic Explosion's AoE from <span class='info_blue'>440</span> to <span class='info_blue'>700</span>.",
             ]
         }
     ],[
@@ -403,12 +403,12 @@ var arcanist_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_gray'>Fully talented</span></p><p><span class='info_blue'>Cooldown: <span class='info_gray'>5.86sec</span>",
             "texts": [
                 "",
-                "Increases the periodic damage done by Drain Spirit by <span class='info_blue'>7%</span>.<br>Also lowers the delay between Drain Spirit ticks by <span class='info_blue'>0.2s</span> but will not increase the total number of ticks.",
-                "Increases the periodic damage done by Drain Spirit by <span class='info_blue'>14%</span>.<br>Also lowers the delay between Drain Spirit ticks by <span class='info_blue'>0.4s</span> but will not increase the total number of ticks.",
-                "Increases the periodic damage done by Drain Spirit by <span class='info_blue'>21%</span>.<br>Also lowers the delay between Drain Spirit ticks by <span class='info_blue'>0.6s</span> but will not increase the total number of ticks.",
+                "- Increases the periodic damage done by Drain Spirit by <span class='info_blue'>7%</span>.<br>- Also lowers the delay between Drain Spirit ticks by <span class='info_blue'>0.2s</span> but will not increase the total number of ticks.",
+                "- Increases the periodic damage done by Drain Spirit by <span class='info_blue'>14%</span>.<br>- Also lowers the delay between Drain Spirit ticks by <span class='info_blue'>0.4s</span> but will not increase the total number of ticks.",
+                "- Increases the periodic damage done by Drain Spirit by <span class='info_blue'>21%</span>.<br>- Also lowers the delay between Drain Spirit ticks by <span class='info_blue'>0.6s</span> but will not increase the total number of ticks.",
             ]
         }
     ],[
@@ -478,9 +478,9 @@ var arcanist_skills = [
             "info": "p",
             "texts": [
                 "",
-                "Summon a mirror image while Arcanic Disruption is active.<br>Mirror image mimics <span class='info_blue'>Arcanic Explosion</span>.",
-                "Summon a mirror image while Arcanic Disruption is active.<br>Mirror image mimics <span class='info_blue'>Arcanic Explosion</span> and <span class='info_blue'>Drain Spirit</span>.",
-                "Summon a mirror image while Arcanic Disruption is active.<br>Mirror image mimics <span class='info_blue'>Arcanic Explosion</span> and <span class='info_blue'>Drain Spirit</span>.<br>Divination Mark's minimum damage is changed to <span class='info_blue'>1.2x</span>. Casting Arcanic Blast causes Arcanic Missile to have <span class='info_blue'>0</span> cooldown for a short time.",
+                "- Summon a mirror image while Arcanic Disruption is active.<br>- Mirror image mimics <span class='info_blue'>Arcanic Explosion</span>.",
+                "- Summon a mirror image while Arcanic Disruption is active.<br>- Mirror image mimics <span class='info_blue'>Arcanic Explosion</span> and <span class='info_blue'>Drain Spirit</span>.",
+                "- Summon a mirror image while Arcanic Disruption is active.<br>- Mirror image mimics <span class='info_blue'>Arcanic Explosion</span> and <span class='info_blue'>Drain Spirit</span>.<br>- Divination Mark's minimum damage is changed to <span class='info_blue'>1.2x</span>.<br>- Casting Arcanic Blast causes Arcanic Missile to have <span class='info_blue'>0</span> cooldown for a short time.",
             ]
         }
     ],[
@@ -494,14 +494,14 @@ var arcanist_skills = [
             "locked": 1,
             "lockReq": "0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0",
             "requirement": "",
-            "info": "p",
+            "info": "<p><span class='info_gray'>Fully talented</span></p><p><span class='info_blue'>Cooldown: <span class='info_gray'>2.93sec</span>",
             "texts": [
                 "",
-                "Delay between each Drain Spirit tick is reduced by <span class='info_blue'>10%</span>. Total duration of Drain Spirit is reduced by the same percentage. Drain Spirit stuns attacked enemies for <span class='info_blue'>0.05s</span> each tick.<br>When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
-                "Delay between each Drain Spirit tick is reduced by <span class='info_blue'>20%</span>. Total duration of Drain Spirit is reduced by the same percentage. Drain Spirit stuns attacked enemies for <span class='info_blue'>0.10s</span> each tick.<br>When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
-                "Delay between each Drain Spirit tick is reduced by <span class='info_blue'>30%</span>. Total duration of Drain Spirit is reduced by the same percentage. Drain Spirit stuns attacked enemies for <span class='info_blue'>0.15s</span> each tick.<br>When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
-                "Delay between each Drain Spirit tick is reduced by <span class='info_blue'>40%</span>. Total duration of Drain Spirit is reduced by the same percentage. Drain Spirit stuns attacked enemies for <span class='info_blue'>0.20s</span> each tick.<br>When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
-                "Delay between each Drain Spirit tick is reduced by <span class='info_blue'>50%</span>. Total duration of Drain Spirit is reduced by the same percentage. Drain Spirit stuns attacked enemies for <span class='info_blue'>0.25s</span> each tick.<br>When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
+                "- Delay between each Drain Spirit tick is reduced by <span class='info_blue'>10%</span>. Total duration of Drain Spirit is reduced by the same percentage.<br>- Drain Spirit stuns attacked enemies for <span class='info_blue'>0.05s</span> each tick.<br>- When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
+                "- Delay between each Drain Spirit tick is reduced by <span class='info_blue'>20%</span>. Total duration of Drain Spirit is reduced by the same percentage.<br>- Drain Spirit stuns attacked enemies for <span class='info_blue'>0.10s</span> each tick.<br>- When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
+                "- Delay between each Drain Spirit tick is reduced by <span class='info_blue'>30%</span>. Total duration of Drain Spirit is reduced by the same percentage.<br>- Drain Spirit stuns attacked enemies for <span class='info_blue'>0.15s</span> each tick.<br>- When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
+                "- Delay between each Drain Spirit tick is reduced by <span class='info_blue'>40%</span>. Total duration of Drain Spirit is reduced by the same percentage.<br>- Drain Spirit stuns attacked enemies for <span class='info_blue'>0.20s</span> each tick.<br>- When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
+                "- Delay between each Drain Spirit tick is reduced by <span class='info_blue'>50%</span>. Total duration of Drain Spirit is reduced by the same percentage.<br>- Drain Spirit stuns attacked enemies for <span class='info_blue'>0.25s</span> each tick.<br>- When fully talented, Drain Spirit will cast Arcanic Blast at its end.",
             ]
         }
     ],[
