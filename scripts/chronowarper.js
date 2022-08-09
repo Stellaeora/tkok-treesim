@@ -40,7 +40,8 @@ var chronowarper_skills = [
             "resource": "",
             "maxLevel": 3,
             "lvlReq": 26,
-            "locked": 0,
+            "locked": 1,
+            "lockReq": "1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -163,7 +164,7 @@ var chronowarper_skills = [
             "maxLevel": 1,
             "lvlReq": 24,
             "locked": 1,
-            "lockReq": "0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-1-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -215,7 +216,7 @@ var chronowarper_skills = [
             "maxLevel": 3,
             "lvlReq": 12,
             "locked": 0,
-            "lockReq": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -233,8 +234,8 @@ var chronowarper_skills = [
             "resource": "",
             "maxLevel": 3,
             "lvlReq": 36,
-            "locked": 0,
-            "lockReq": "0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "locked": 1,
+            "lockReq": "0-0-0-0-0-0-0-1-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -252,7 +253,7 @@ var chronowarper_skills = [
             "resource": "Hotkey: Y",
             "maxLevel": 1,
             "lvlReq": 30,
-            "locked": 1,
+            "locked": 0,
             "requirement": "",
             "info": "<p><span class='info_gray'>Toggleable</span></p><p><span class='info_gray'>Ranged / Target / Projectile</span></p><p><span class='info_gray'><span class='info_green'>Affected by:</span> All Attributes</span></p><span class='info_blue'>Manacost: <span class='info_gray'>60 for each form switch</span> , Cooldown: <span class='info_gray'>None</span>",
             "texts": [
@@ -288,7 +289,7 @@ var chronowarper_skills = [
             "maxLevel": 3,
             "lvlReq": 11,
             "locked": 1,
-            "lockReq": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -307,7 +308,7 @@ var chronowarper_skills = [
             "maxLevel": 1,
             "lvlReq": 40,
             "locked": 1,
-            "lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-0-0-0-0-1-3-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -324,7 +325,7 @@ var chronowarper_skills = [
             "maxLevel": 5,
             "lvlReq": 50,
             "locked": 1,
-            "lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -379,7 +380,7 @@ var chronowarper_skills = [
             "maxLevel": 1,
             "lvlReq": 36,
             "locked": 1,
-            "lockReq": "0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-0-0-0-0-0-0-0-1-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -467,7 +468,7 @@ var chronowarper_skills = [
             "maxLevel": 3,
             "lvlReq": 30,
             "locked": 1,
-            "lockReq": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -501,7 +502,7 @@ var chronowarper_skills = [
             "maxLevel": 5,
             "lvlReq": 50,
             "locked": 1,
-            "lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0",
+            "lockReq": "0-0-0-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0",
             "requirement": "",
             "info": "",
             "texts": [
