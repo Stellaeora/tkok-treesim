@@ -41,7 +41,7 @@ var aeromancer_skills = [
             "maxLevel": 3,
             "lvlReq": 36,
             "locked": 0,
-            "lockReq": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -129,7 +129,7 @@ var aeromancer_skills = [
             "maxLevel": 3,
             "lvlReq": 18,
             "locked": 0,
-            "lockReq": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-0-0-1-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -379,7 +379,7 @@ var aeromancer_skills = [
             "maxLevel": 1,
             "lvlReq": 24,
             "locked": 1,
-            "lockReq": "0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-0-0-1-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "p",
             "texts": [
@@ -501,7 +501,7 @@ var aeromancer_skills = [
             "maxLevel": 5,
             "lvlReq": 50,
             "locked": 1,
-            "lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0",
+            "lockReq": "0-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0",
             "requirement": "",
             "info": "<p><span class='info_gray'>First point taken </span></p><p><span class='info_blue'>Manacost: <span class='info_gray'>25</span> ,Cooldown: <span class='info_gray'>0.4sec</span>",
             "texts": [
